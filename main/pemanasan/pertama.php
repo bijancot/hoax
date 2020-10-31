@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <?php
+  session_start();
+
+  $user = $_SESSION['uname'];
+  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +28,7 @@
                         <img src="../../assets/image/image_1.png" alt="Placeholder image">
                         </figure>
                         <div class="card-content is-size-5-mobile is-size-4-desktop">
-                          Halo team ... !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah esan whatsapp ini fakta atau hoax? 
+                          Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah esan whatsapp ini fakta atau hoax? 
                           (pilih salah satu jawaban di bawah ya!)<br/>
                           </br>
                           <div class="columns">

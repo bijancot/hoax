@@ -111,7 +111,7 @@
                     <p class="has-text-dark">Gimana jawaban kamu tadi ?, masih salah atau udah bener ? yuk kita coba lagi!. Klik tombol lanjutkan di bawah!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <button class="button is-success">Lanjutkan >></button> 
+                  <a href="kedua.php"><button class="button is-success">Lanjutkan >></button> </a>
                 </footer>
               </div>
             </div>

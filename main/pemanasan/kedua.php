@@ -107,7 +107,7 @@
                       Kementerian Kesehatan menyatakan tidak pernah mengeluarkan informasi tentang pencegahan infeksi virus Corona 2019-nCoV tersebut kepada masyarakat. <strong>“Tidak pernah ada,”  </strong> kata Direktur Jenderal Pencegahan dan Pengendalian Penyakit Kemenkes, Anung Sugihantono.
                     </div>
                   </article>
-                    <p class="has-text-dark">Gimana jawaban kamu tadi ?, masih salah atau udah bener ? yuk kita coba lagi!. Klik tombol lanjutkan di bawah!</p>
+                    <p class="has-text-dark">Sampai sini udah paham kan? Yuk baca sedikit informasi lagi biar terhindar dari hoax!</p>
                 </section>
                 <footer class="modal-card-foot">
                   <button class="button is-success">Lanjutkan >></button> 

@@ -73,7 +73,7 @@
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
                       <h2 class="title has-text-dark">Latihan 2</h2>
                       Okay team <?= $user ?>, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta?
-                      <br/>
+                      <br/><br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">
                               
@@ -101,7 +101,7 @@
                     <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAX</em>
                     </h1>
                   <p class="has-text-dark">Sekali lagi, informasi yang telah disebarkan oleh netizen bertujuan baik, namun <strong class="has-text-danger-dark">tidak</strong> diiringi dengan <strong class="has-text-danger-dark">pencarian fakta yang tepat</strong> sehingga terjadi disinformasi. Yuk cek dulu sebelum berbagi berita!</p><br/>
-                  <article class="message is-dark">
+                  <article class="message">
                     <div class="message-body">
                       kutipan resmi dari Kominfo :<br/>
                       Kementerian Kesehatan menyatakan tidak pernah mengeluarkan informasi tentang pencegahan infeksi virus Corona 2019-nCoV tersebut kepada masyarakat. <strong>“Tidak pernah ada,”  </strong> kata Direktur Jenderal Pencegahan dan Pengendalian Penyakit Kemenkes, Anung Sugihantono.

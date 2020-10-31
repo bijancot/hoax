@@ -31,13 +31,25 @@
                           Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah esan whatsapp ini fakta atau hoax? 
                           (pilih salah satu jawaban di bawah ya!)<br/>
                           </br>
-                          <div class="columns">
+                          <!-- <div class="columns">
+                              <div class="column"></div>
+                              <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column"></div>
+                          </div> -->
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="card">
+                      <div class="card-content">
+                        <p class="has-text-centered"><strong>Pilih jawaban sekarang :</strong></p>
+                      <div class="columns">
                               <div class="column"></div>
                               <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
                               <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
                               <div class="column"></div>
                           </div>
-                        </div>
+                      </div>
                     </div>
                 </div>
                 <div class="column"></div>

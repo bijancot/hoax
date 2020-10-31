@@ -11,15 +11,14 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-three-fifths"> 
+                <div class="column is-two-thirds"> 
                     <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                        <img src="../../assets/iamge/image_1.png" alt="Placeholder image">
+                        </figure>
+                    </div>
                         <div class="card-content">
-                          <h1 class="title has-text-dark">
-                            Halo ..., Selamat datang di Leres. !!
-                            </h1>
-                            <h2 class="subtitle has-text-dark">
-                            Sebelum mulai, yuk pemanasan dulu!. Di bagian kali ini teman-teman akan diajak untuk mengenali berita hoax dengan teknik paling dasar.
-                            </h2>
                           </br>
                           <div class="columns">
                               <div class="column"></div>

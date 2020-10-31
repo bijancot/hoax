@@ -24,6 +24,7 @@ $_SESSION['uname'] = $namaTeam;
                           <h1 class="title has-text-dark">
                             Halo <?= $namaTeam?> Selamat datang di Leres. !!
                             </h1>
+                            <br/>
                             <h2 class="subtitle has-text-dark">
                             Sebelum mulai, yuk pemanasan dulu!. Di bagian kali ini teman-teman akan diajak untuk mengenali berita hoax dengan teknik paling dasar.
                             </h2>

@@ -22,25 +22,40 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-full"> 
+                <div class="column is-two-thirds"> 
                     <div class="card">
+                      <header class="card-header ">
+                        <p class="card-header-title has-text-left">
+                          Tangkapan layar Pesan salah satu WhatsApp Group
+                        <!-- </p> -->
+                        <!-- <a href="#" class="card-header-icon" aria-label="more options">
+                          <span class="icon">
+                            <i class="fas fa-angle-down" aria-hidden="true"></i>
+                          </span>
+                        </a> -->
+                      </header>
                         <figure class="image is-3by5">
                         <img src="../../assets/image/image_1.png" alt="Placeholder image">
                         </figure>
-                        <div class="card-content is-size-5-mobile is-size-4-desktop">
-                          Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah esan whatsapp ini fakta atau hoax? 
-                          (pilih salah satu jawaban di bawah ya!)<br/>
-                          </br>
-                          <!-- <div class="columns">
+                        <div class="card-content is-size-5-mobile is-size-4-desktop ">
+                          <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
+                          <div class="is-hidden-desktop penjelasan">
+                            <h2 class="title has-text-dark">Latihan 1</h2><br/>
+                            Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax? 
+                            
+                              <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
+                            <div class="columns">
                               <div class="column"></div>
                               <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
                               <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
                               <div class="column"></div>
-                          </div> -->
+                          </div>
+                            </div>
+                            <br/>
                         </div>
                     </div>
                     <br/>
-                    <div class="card">
+                    <!-- <div class="card">
                       <div class="card-content">
                         <p class="has-text-centered"><strong>Pilih jawaban sekarang :</strong></p>
                       <div class="columns">
@@ -50,9 +65,25 @@
                               <div class="column"></div>
                           </div>
                       </div>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="column"></div>
+                <div class="column">
+                  <div class="card is-hidden-mobile">
+                    
+                    <div class="card-content is-size-5-mobile is-size-5-desktop">
+                      <h2 class="title has-text-dark">Latihan 1</h2>
+                      <p>Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax?</p>
+                      <br/>
+                      <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
+                      <div class="columns">
+                              
+                              <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              
+                          </div>
+                    </div>
+                  </div>
+                </div>
             </div>
             <div class="modal">
               <div class="modal-background"></div>

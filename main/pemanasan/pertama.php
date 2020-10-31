@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<?php
-
-$namaTeam = $_POST['team'];
-
-?>
 <html>
   <head>
     <meta charset="utf-8">
@@ -16,12 +11,11 @@ $namaTeam = $_POST['team'];
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column"></div>
-                <div class="column is-four-fifths"> 
+                <div class="column is-three-fifths"> 
                     <div class="card">
                         <div class="card-content">
                           <h1 class="title has-text-dark">
-                            Halo <?= $namaTeam?> Selamat datang di Leres. !!
+                            Halo ..., Selamat datang di Leres. !!
                             </h1>
                             <h2 class="subtitle has-text-dark">
                             Sebelum mulai, yuk pemanasan dulu!. Di bagian kali ini teman-teman akan diajak untuk mengenali berita hoax dengan teknik paling dasar.
@@ -29,7 +23,7 @@ $namaTeam = $_POST['team'];
                           </br>
                           <div class="columns">
                               <div class="column"></div>
-                              <div class="column"><button class="button is-medium is-info is-center is-fullwidth"><strong><a href="pemanasan/pertama.php">Mulai >></a></strong></button></div>
+                              <div class="column"><button class="button is-medium is-info is-center is-fullwidth"><strong>Mulai >></strong></button></div>
                               <div class="column"></div>
                           </div>
                         </div>

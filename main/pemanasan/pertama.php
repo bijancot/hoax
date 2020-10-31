@@ -11,7 +11,7 @@
     <div class="hero-body">
         <div class="container">
             <div class="columns">
-                <div class="column is-three-fifths"> 
+                <div class="column is-two-thirds"> 
                     <div class="card">
                         <div class="card-content">
                           <h1 class="title has-text-dark">

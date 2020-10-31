@@ -15,7 +15,7 @@
                     <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                        <img src="../../assets/iamge/image_1.png" alt="Placeholder image">
+                        <img src="../../assets/image/image_1.png" alt="Placeholder image">
                         </figure>
                     </div>
                         <div class="card-content">

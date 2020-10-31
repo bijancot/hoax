@@ -35,7 +35,7 @@
                         </a> -->
                       </header>
                         <figure class="image is-3by5">
-                        <img src="../../assets/image/image_3.png" alt="Placeholder image">
+                        <img src="../../assets/image/image_4.png" alt="Placeholder image">
                         </figure>
                         <div class="card-content is-size-5-mobile is-size-4-desktop ">
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
@@ -71,8 +71,8 @@
                   <div class="card is-hidden-mobile">
                     
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
-                      <h2 class="title has-text-dark">Latihan 1</h2>
-                      <p>Halo team <?= $user?> !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax?</p>
+                      <h2 class="title has-text-dark">Latihan 2</h2>
+                      Okay team <?= $user ?>, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta?
                       <br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">
@@ -94,13 +94,13 @@
                 </header>
                 <section class="modal-card-body">
                   <figure class="image is-4by5">
-                    <img src="../../assets/image/image_4.png" alt="Placeholder image">
+                    <img src="../../assets/image/image_3.png" alt="Placeholder image">
                   </figure>
                   <br/><br/>
                   <h1 class="title">
                     <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAX</em>
                     </h1>
-                  <p class="has-text-dark">Sekali lagi, informasi yang telah disebarkan oleh netizen bertujuan baik, namun tidak diiringi dengan <strong>pencarian fakta yang tepat</strong> sehingga terjadi disinformasi. Yuk cek dulu sebelum berbagi!</p><br/>
+                  <p class="has-text-dark">Sekali lagi, informasi yang telah disebarkan oleh netizen bertujuan baik, namun <strong class="has-text-danger-dark">tidak</strong> diiringi dengan <strong class="has-text-danger-dark">pencarian fakta yang tepat</strong> sehingga terjadi disinformasi. Yuk cek dulu sebelum berbagi berita!</p><br/>
                   <article class="message is-dark">
                     <div class="message-body">
                       kutipan resmi dari Kominfo :<br/>

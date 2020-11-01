@@ -144,13 +144,15 @@ $_SESSION['uname'] = $namaTeam;
                                   Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
                                   </h4>
                                   <div class="columns is-mobile">
-                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
-                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
+                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">2/4</p></div>
+                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="50" max="100">50%</progress></div>
                                   </div>
-                                  <p class="has-text-justified">Banyak hal terjadi di masa ini. Berbeda dengan dekade dan abad sebelumnya, di abad ke-21 ini semua serba cepat dan mudah didapatkan. Begitu juga dengan informasi dan berita. Laju berita sangat cepat, bahkan sebuah berita dapat didapatkan hanya selisih 10 menit setelah sebuah kejadian terjadi. Hal tersebut bukan mustahil terjadi, apalagi dengan banyaknya alternatif pengaksesan berita mulai dari website berita, facebook dan beberapa sosial media lain termasuk WhatsApp.</p><br/>
-                                  <div class="columns">
+                                  <br/>
+                                  <p class="has-text-justified">Akses yang mudah membuat hampir semua orang dangan berbagai umur dan latar belakang dapat mengakses berita dan informasi dengan cepat. Disinilah muncul masalah baru, dengan tingkat literasi Indonesia yang terhitung cukup rendah alur informasi yang cepat justru menjadi kendala. Masyarakat dengan literasi dan pendidikan rendah cenderung memiliki kebiasaaan mudah menyimpulkan sesuatu tanpa dasar atau riset yang jelas. Di sinilah sejarah berita hoax mulai bertebaran di media sosial dan menjadi sedikit menyebalkan.</p><br/>
+                                  <div class="columns is-mobile">
                                     <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-2.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
                                     <div class="column"></div>
                                   </div>
                               </div>

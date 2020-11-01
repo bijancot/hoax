@@ -143,9 +143,31 @@ $_SESSION['uname'] = $namaTeam;
                                   <h4 class="subtitle has-text-dark">
                                   Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
                                   </h4>
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, sapiente. Est rerum vero facere sed quas. Dolorum, assumenda nisi, quae ullam qui beatae nam, voluptate officia sint eveniet commodi velit!</p><br/>
-                                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facere omnis odit aut eum dolore facilis, natus hic libero tempore repellendus rerum amet doloribus repudiandae deleniti a, nisi ad id.</p><br/>
-                                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda dolore quis pariatur, iusto possimus molestias at id enim sint laboriosam? Alias tempora iure praesentium assumenda magni qui voluptates modi dolorem?</p><br/>
+                                  <p class="has-text-justified">Banyak hal terjadi di masa ini. Berbeda dengan dekade dan abad sebelumnya, di abad ke-21 ini semua serba cepat dan mudah didapatkan. Begitu juga dengan informasi dan berita. Laju berita sangat cepat, bahkan sebuah berita dapat didapatkan hanya selisih 10 menit setelah sebuah kejadian terjadi. Hal tersebut bukan mustahil terjadi, apalagi dengan banyaknya alternatif pengaksesan berita mulai dari website berita, facebook dan beberapa sosial media lain termasuk WhatsApp.</p><br/>
+                                  <p class="has-text-justified">Akses yang mudah membuat hampir semua orang dangan berbagai umur dan latar belakang dapat mengakses berita dan informasi dengan cepat. Disinilah muncul masalah baru, dengan tingkat literasi Indonesia yang terhitung cukup rendah alur informasi yang cepat justru menjadi kendala. Masyarakat dengan literasi dan pendidikan rendah cenderung memiliki kebiasaaan mudah menyimpulkan sesuatu tanpa dasar atau riset yang jelas. Di sinilah sejarah berita hoax mulai bertebaran di media sosial dan menjadi sedikit menyebalkan.</p><br/>
+                                  <p class="has-text-justified">Jadi, bagaimana cara kita terhindar dari berita hoax?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoax atau bukan, detilnya adalah sebagai berikut :</p><br/>
+                                  
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>C : Cermati</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>I : Investigasi</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>N : Narasikan</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>T : Telaah</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>A : Apresiasi</strong>
+                                  </p><br/>
+                                  <p class="has-text-justified">Dari pada kelamaan, ayo langsung kita praktekkan!</p><br/>
+                                  <div class="columns">
+                                    <div class="column"></div>
+                                    <div class="column"><br/><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Ayo Praktik!</strong></button><br/></div>
+                                    <div class="column"></div>
+                                  </div>
                               </div>
                               <div class="column"></div>
                           </div>

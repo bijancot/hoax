@@ -144,13 +144,30 @@ $_SESSION['uname'] = $namaTeam;
                                   Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
                                   </h4>
                                   <div class="columns is-mobile">
-                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
-                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
+                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">3/4</p></div>
+                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="75" max="100">60%</progress></div>
                                   </div>
-                                  <p class="has-text-justified">Banyak hal terjadi di masa ini. Berbeda dengan dekade dan abad sebelumnya, di abad ke-21 ini semua serba cepat dan mudah didapatkan. Begitu juga dengan informasi dan berita. Laju berita sangat cepat, bahkan sebuah berita dapat didapatkan hanya selisih 10 menit setelah sebuah kejadian terjadi. Hal tersebut bukan mustahil terjadi, apalagi dengan banyaknya alternatif pengaksesan berita mulai dari website berita, facebook dan beberapa sosial media lain termasuk WhatsApp.</p><br/>
-                                  <div class="columns">
+                                  <br/>
+                                  <p class="has-text-justified">Jadi, bagaimana cara kita terhindar dari berita hoax?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoax atau bukan, detilnya adalah sebagai berikut :</p><br/>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>C : Cermati</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>I : Investigasi</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>N : Narasikan</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>T : Telaah</strong>
+                                  </p>
+                                  <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
+                                    <strong>A : Apresiasi</strong>
+                                  </p><br/>
+                                  <div class="columns is-mobile">
                                     <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
                                     <div class="column"></div>
                                   </div>
                               </div>

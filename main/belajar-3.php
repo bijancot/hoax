@@ -118,7 +118,7 @@ $_SESSION['uname'] = $namaTeam;
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light">
+          <a class="button is-light showInfo">
             <strong>Tentang aplikasi ini</strong>
           </a>
           <!-- <a class="button is-light">
@@ -153,10 +153,10 @@ $_SESSION['uname'] = $namaTeam;
                                   <p class="has-text-justified">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoax, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoax atau sebuah fakta yang memang harus dibagikan.</p><br/>
                                   <p class="has-text-justified">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
                                   <div class="columns is-mobile">
-                                    <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Selesai > </strong></button></a><br/></div>
-                                    <div class="column"></div>
+                                    <div class="column is-hidden-mobile"></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Selesai > </strong></button></a><br/></div>
+                                    <div class="column is-hidden-mobile"></div>
                                   </div>
                               </div>
                               <div class="column"></div>
@@ -192,6 +192,9 @@ $(".showInfo").click(function() {
   });
 
   $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  $(".delete").click(function() {
     $(".modalr").removeClass("is-active");
   });
   });

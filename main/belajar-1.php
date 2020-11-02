@@ -21,60 +21,6 @@ $_SESSION['uname'] = $namaTeam;
       <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
       <h1 class="title has-text-dark">Leres.</h1>
     </a>
-  
-    <!-- <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div> -->
-
-  <!-- <div id="navMenu" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
-
-      <a class="navbar-item">
-        Documentation
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
     <span aria-hidden="true"></span>
     <span aria-hidden="true"></span>
@@ -82,47 +28,12 @@ $_SESSION['uname'] = $namaTeam;
   </a>
 </div>
   <div class="navbar-menu" id="navMenu">
-    <!-- <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
-
-      <a class="navbar-item">
-        Documentation
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div> -->
-
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light">
+          <a class="button is-light showInfo">
             <strong>Tentang aplikasi ini</strong>
           </a>
-          <!-- <a class="button is-light">
-            Log in
-          </a> -->
         </div>
       </div>
     </div>
@@ -134,7 +45,7 @@ $_SESSION['uname'] = $namaTeam;
                 <div class="column"></div>
                 <div class="column is-four-fifths"> 
                     <div class="card">
-                        <div class="card-content ">
+                        <div class="card-content">
                           </br>
                           <div class="columns">
                               <div class="column"></div>
@@ -151,11 +62,12 @@ $_SESSION['uname'] = $namaTeam;
                                   </div>
                                   <br/>
                                   <p class="has-text-justified">Akses yang mudah membuat hampir semua orang dangan berbagai umur dan latar belakang dapat mengakses berita dan informasi dengan cepat. Disinilah muncul masalah baru, dengan tingkat literasi Indonesia yang terhitung cukup rendah alur informasi yang cepat justru menjadi kendala. Masyarakat dengan literasi dan pendidikan rendah cenderung memiliki kebiasaaan mudah menyimpulkan sesuatu tanpa dasar atau riset yang jelas. Di sinilah sejarah berita hoax mulai bertebaran di media sosial dan menjadi sedikit menyebalkan.</p><br/>
+                                  
                                   <div class="columns is-mobile">
-                                    <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="belajar-2.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
-                                    <div class="column"></div>
+                                    <div class="column is-hidden-mobile"></div>
+                                    <div class="column" ><br/><a href="belajar.php"><button class="showAnswer is-size-6-mobile button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column" ><br/><a href="belajar-2.php"><button class="showAnswer is-size-6-mobile button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
+                                    <div class="column is-hidden-mobile" ></div>
                                   </div>
                               </div>
                               <div class="column"></div>
@@ -175,8 +87,8 @@ $_SESSION['uname'] = $namaTeam;
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
-        <!-- Content ... -->
-      </section>
+         <!-- Content ... -->
+     </section>
       <footer class="modal-card-foot">
         <button class="button is-success keluar">Ok</button>
       </footer>
@@ -191,6 +103,9 @@ $(".showInfo").click(function() {
   });
 
   $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  $(".delete").click(function() {
     $(".modalr").removeClass("is-active");
   });
   });

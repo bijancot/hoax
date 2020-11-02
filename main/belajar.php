@@ -116,7 +116,7 @@ $_SESSION['uname'] = $namaTeam;
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light">
+          <a class="button is-light showInfo">
             <strong>Tentang aplikasi ini</strong>
           </a>
           <!-- <a class="button is-light">
@@ -188,6 +188,9 @@ $(".showInfo").click(function() {
   });
 
   $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  $(".delete").click(function() {
     $(".modalr").removeClass("is-active");
   });
   });

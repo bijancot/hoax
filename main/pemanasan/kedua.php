@@ -257,6 +257,7 @@
 
     $(".delete").click(function() {
       $(".modala").removeClass("is-active");
+      $(".modalr").removeClass("is-active");
     });
 
     $(".keluar").click(function() {

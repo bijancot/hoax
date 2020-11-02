@@ -11,13 +11,15 @@ $_SESSION['uname'] = $namaTeam;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <body>
   <section class="hero is-primary is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+      <h1 class="title has-text-dark">Leres.</h1>
     </a>
   
     <!-- <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -80,7 +82,7 @@ $_SESSION['uname'] = $namaTeam;
   </a>
 </div>
   <div class="navbar-menu" id="navMenu">
-    <div class="navbar-start">
+    <!-- <div class="navbar-start">
       <a class="navbar-item">
         Home
       </a>
@@ -110,17 +112,17 @@ $_SESSION['uname'] = $namaTeam;
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
           <a class="button is-light">
-            Log in
+            <strong>Tentang aplikasi ini</strong>
           </a>
+          <!-- <a class="button is-light">
+            Log in
+          </a> -->
         </div>
       </div>
     </div>
@@ -165,8 +167,34 @@ $_SESSION['uname'] = $namaTeam;
             </div>
         </div>
     </div>
+    <div class="modal modalr">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Tentang Kami</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success keluar">Ok</button>
+      </footer>
+    </div>
+  </div>
   </section>
   <script type="text/javascript">
+  $( document ).ready(function() {
+
+$(".showInfo").click(function() {
+    $(".modalr").addClass("is-active");  
+  });
+
+  $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  });
+
   document.addEventListener('DOMContentLoaded', () => {
 
 // Get all "navbar-burger" elements

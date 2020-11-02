@@ -198,7 +198,7 @@
                   </div>
                 </div>
             </div>
-            <div class="modal">
+            <div class="modal modala">
               <div class="modal-background"></div>
               <div class="modal-card">
                 <header class="modal-card-head">
@@ -249,7 +249,7 @@
   <script type="text/javascript">
     $( document ).ready(function() {
       $(".showAnswer").click(function() {
-      $(".modal").addClass("is-active");  
+      $(".modala").addClass("is-active");  
     });
 
     $(".showInfo").click(function() {
@@ -257,7 +257,7 @@
     });
 
     $(".delete").click(function() {
-      $(".modal").removeClass("is-active");
+      $(".modala").removeClass("is-active");
     });
     $(".keluar").click(function() {
       $(".modalr").removeClass("is-active");

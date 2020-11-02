@@ -117,7 +117,7 @@ $_SESSION['uname'] = $namaTeam;
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-light">
+          <a class="button is-light showInfo">
             <strong>Tentang aplikasi ini</strong>
           </a>
           <!-- <a class="button is-light">
@@ -167,10 +167,10 @@ $_SESSION['uname'] = $namaTeam;
                                     <strong>A : Apresiasi</strong>
                                   </p><br/>
                                   <div class="columns is-mobile">
-                                    <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
-                                    <div class="column"></div>
+                                    <div class="column is-hidden-mobile"></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth is-size-6-mobile"><strong>Lanjutkan > </strong></button></a><br/></div>
+                                    <div class="column is-hidden-mobile"></div>
                                   </div>
                               </div>
                               <div class="column"></div>
@@ -206,6 +206,9 @@ $(".showInfo").click(function() {
   });
 
   $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  $(".delete").click(function() {
     $(".modalr").removeClass("is-active");
   });
   });

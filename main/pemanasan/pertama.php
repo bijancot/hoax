@@ -18,10 +18,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
   </head>
   <body>
+  <section class="hero is-primary is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+      <h1 class="title has-text-dark">Leres.</h1>
     </a>
   
     <!-- <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -84,7 +86,7 @@
   </a>
 </div>
   <div class="navbar-menu" id="navMenu">
-    <div class="navbar-start">
+    <!-- <div class="navbar-start">
       <a class="navbar-item">
         Home
       </a>
@@ -114,23 +116,22 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
+          <a class="button showInfo is-light">
+            <strong>Tentang aplikasi ini</strong>
           </a>
-          <a class="button is-light">
+          <!-- <a class="button is-light">
             Log in
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
   </div>
 </nav>
-  <section class="hero is-primary is-fullheight">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
@@ -227,8 +228,39 @@
                 </footer>
               </div>
             </div>
+            <div class="modalr">
+              <div class="modal-background"></div>
+              <div class="modal-card">
+                <header class="modal-card-head">
+                  <p class="modal-card-title">Tentang Kami</p>
+                  <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                  <!-- Content ... -->
+                </section>
+                <footer class="modal-card-foot">
+                  <button class="button is-success">Save changes</button>
+                  <button class="button">Cancel</button>
+                </footer>
+              </div>
+            </div>
         </div>
     </div>
+    <div class="modal modalr">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Tentang Kami</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <!-- Content ... -->
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-success keluar">Ok</button>
+      </footer>
+    </div>
+  </div>
   </section>
   <script type="text/javascript">
     $( document ).ready(function() {
@@ -236,8 +268,15 @@
       $(".modal").addClass("is-active");  
     });
 
+    $(".showInfo").click(function() {
+      $(".modalr").addClass("is-active");  
+    });
+
     $(".delete").click(function() {
       $(".modal").removeClass("is-active");
+    });
+    $(".keluar").click(function() {
+      $(".modalr").removeClass("is-active");
     });
     });
   </script>

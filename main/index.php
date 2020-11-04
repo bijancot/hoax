@@ -9,7 +9,7 @@ if($namaTeam != "anggur" || $namaTeam != "mangga"){
   $msg = "Username tidak ada, tanya ke bu rahma ya!";
   setcookie("msg", $msg, time() + 3600, "/");
   header('Location: ../index.php');
-}if($namaTeam === "anggur"|| $namaTeam === "mangga"){
+}if($namaTeam == "anggur"|| $namaTeam == "mangga"){
   // do nothing
 }else{
   $msg = "Username tidak ada, tanya ke bu rahma ya!";

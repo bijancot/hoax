@@ -3,7 +3,7 @@
   <head>
   <?php
     $msg = $_COOKIE['msg'];
-    setcookie("msg", "", time() - 3600);
+    // setcookie("msg", "", time() - 3600);
   ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

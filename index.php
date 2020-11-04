@@ -37,7 +37,7 @@
                                       <input class="input" type="text" name="team" placeholder="Masukkan nama unik kamu!">
                                     </div>
                                     <?php
-                                      if($msg != null){
+                                      if($msg = null){
                                     ?>
                                     <p class="help">Minta ke bu guru ya! ;)</p>
                                     <?php

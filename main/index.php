@@ -8,11 +8,11 @@ $_SESSION['uname'] = $namaTeam;
 if($namaTeam != "anggur" || $namaTeam != "mangga"){
   $msg = "Username tidak ada, tanya ke bu rahma ya!";
   setcookie("msg", $msg, time() + 3600, "/");
-  header('Location: ../index.html');
+  header('Location: ../index.php');
 }elseif($namaTeam = null){
   $msg = "Username tidak ada, tanya ke bu rahma ya!";
   setcookie("msg", $msg, time() + 3600, "/");
-  header('Location: ../index.html');
+  header('Location: ../index.php');
 }
 ?>
 <html>

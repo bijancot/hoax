@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <?php
+  if(isset($_COOKIE['msg'])){
+  }else{
+    $msg = $_COOKIE['msg'];
+    setcookie("msg", "", time() - 3600);
+  }
+  
+  ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
@@ -28,7 +36,18 @@
                                     <div class="control">
                                       <input class="input" type="text" name="team" placeholder="Masukkan nama unik kamu!">
                                     </div>
+                                    <?php
+                                      if($msg != null){
+                                    ?>
                                     <p class="help">Minta ke bu guru ya! ;)</p>
+                                    <?php
+                                      }else{
+                                    ?>
+                                    <p class="help is-danger"><?= $msg ?></p>
+                                    <?php
+                                      }
+                                    ?>
+                                    
                                   </div>
                                   <div class="field">
                                     <div class="control">

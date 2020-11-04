@@ -37,6 +37,7 @@
                                     ?>
                                     <p class="help is-danger"><?= $msg ?></p>
                                     <?php
+                                    setcookie("msg", "", time() - 3600);
                                       }else{
                                     ?>
                                     <p class="help">Minta ke bu guru ya! ;)</p>

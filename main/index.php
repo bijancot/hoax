@@ -4,6 +4,10 @@ session_start();
 $namaTeam = $_POST['team'];
 
 $_SESSION['uname'] = $namaTeam;
+
+if($namaTeam != "anggur" || $namaTeam != "mangga"){
+  header('Location: ../index.html');
+}
 ?>
 <html>
   <head>

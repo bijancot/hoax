@@ -33,13 +33,13 @@
                                       <input class="input" type="text" name="team" placeholder="Masukkan nama unik kamu!">
                                     </div>
                                     <?php
-                                      if($msg = null){
+                                      if($msg != null){
                                     ?>
-                                    <p class="help">Minta ke bu guru ya! ;)</p>
+                                    <p class="help is-danger"><?= $msg ?></p>
                                     <?php
                                       }else{
                                     ?>
-                                    <p class="help is-danger"><?= $msg ?></p>
+                                    <p class="help">Minta ke bu guru ya! ;)</p>
                                     <?php
                                       }
                                     ?>

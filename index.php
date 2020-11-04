@@ -2,12 +2,8 @@
 <html>
   <head>
   <?php
-  if(isset($_COOKIE['msg'])){
-  }else{
     $msg = $_COOKIE['msg'];
     setcookie("msg", "", time() - 3600);
-  }
-  
   ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

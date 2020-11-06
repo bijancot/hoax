@@ -10,9 +10,8 @@ $_SESSION['uname'] = $namaTeam;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../assets/bulma/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <body>
   <section class="hero is-primary is-fullheight">
@@ -141,30 +140,33 @@ $_SESSION['uname'] = $namaTeam;
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
                                 <h1 class="title has-text-dark">
-                                  Mengenal Berita hoax
+                                    Warga Malang Temukan Pembangkit Listrik Tenaga Hampa
                                   </h1>
                                   <h4 class="subtitle has-text-dark is-size-6-mobile">
-                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
+                                  Baca dengan Cermat, agar dapat menganalisis tahapn yang harus dilakukan
                                   </h4>
-                                  <div class="columns is-mobile">
-                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">4/4</p></div>
-                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="100" max="100">100%</progress></div>
-                                  </div>
-                                  <p class="has-text-justified">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoax, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoax atau sebuah fakta yang memang harus dibagikan.</p><br/>
-                                  <p class="has-text-justified">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
-                                  <?php
-                                  
-                                  if($_SESSION['uname'] === "anggur"){
-                                    $next = "berita/berita-1";
-                                  }if($_SESSION['uname'] === "mangga"){
-                                    $next = "berita/berita-2";
-                                  }
-                                  ?>
-                                  <div class="columns is-mobile">
-                                    <div class="column is-hidden-mobile"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="<?= $next?>"><button class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Mulai Praktik </strong></button></a><br/></div>
-                                    <div class="column is-hidden-mobile"></div>
+                                  <!-- <div class="columns is-mobile">
+                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
+                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
+                                  </div> -->
+                                  <br/>
+                                  <figure class="image is-4by3">
+                                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                                  </figure>
+                                  <br/>
+                                  <br/>
+                                  <p class="has-text-justified is-size-6-mobile">Jika Iron Man atau Tony Stark benar-benar ada dan tinggal di Indonesia, mungkin gelar tersebut lebih tepat disandang oleh I Wayan Sumardana alias Tawan. Pria berusia 31 tahun asal Banjar Tauman, Desa Nyuhtebel, Bali ini dijuluki manusia robot oleh warga sekitar. Bukan main-main, Tawan menciptakan tangan robot yang dapat digerakkan dengan otak. Tawan yang bekerja sebagai tukang les ini suatu kali jatuh sakit dan menderita stroke ringan. Akibatnya, tangan kirinya lumpuh total. Padahal, Tawan merupakan tulang punggung keluarga bagi istri dan tiga anak lelakinya. Memutar akal, kondisi lumpuh sebelah tidak ia jadikan beban. Meski sempat stres, Tawan kemudian mencari informasi di situs internet untuk merancang alat atau sejenis robot yang dapat membantunya menggerakkan tangan kirinya yang lumpuh.</p><br/>
+                                <p class="has-text-justified is-size-6-mobile">Berbekal pengetahuan tentang elektronik yang ia dapat waktu sekolah di STM, Tawan menciptakan berbagai rancangan robot. Beberapa kali rancangannya gagal, namun yang terakhir ia berhasil. Ia menciptakan robot sejenis EEG.
+"Alat ini belum sempurna, tapi sudah lumayan membantu. Tanpa alat ini, saya sama sekali tak bisa menggunakan tangan kiri," ujar Tawan seperti dikutip dari Balipost, Senin (18/01/2016).</p><br/>
+                                <p class="has-text-justified is-size-6-mobile">Hebatnya, robot yang diciptakan oleh Tawan ini bahan bakunya dari barang-barang bekas. Komponen shock sepeda motor maupun perangkat elektronik komputer rongsokan, berhasil ia padukan menjadi tangan robot. Menurut Tawan, robot ini digerakkan dengan sinyal dari otaknya. Karenanya, saat menggunakan tangan kiri dengan bantuan robot yang ia buat, ia mesti berkonsentrasi penuh. Tawan sempat mendemonstrasikan kemampun robot di tangannya saat mengangkat pelek mobil seberat 10 kg. Saat diangkat dengan tangannya yang normal, terasa berat. Namun saat diangkat dengan tangan kiri, terlihat ia mengangkatnya dengan enteng.</p><br/>
+                                <p class="has-text-justified is-size-6-mobile">"Tapi karena pakai sinyal otak, energi saya terkuras. Saya harus konsentrasi dan fokus pada benda yang mau diambil atau mengerjakan apa. Kalau tak fokus, susah," imbuh Tawan.
+Kini, Tawan yang bekerja di sebuah bengkel di desanya dapat bekerja kembali. Selain mengelas berbagai besi untuk perabot rumah tangga, ia juga melayani panggilan untuk mengelas benda-benda milik tetangganya.</p><br/>
+
+
+                                  <div class="columns">
+                                    <div class="column"></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai Kuis!</strong></button></a><br/></div>
+                                    <div class="column"></div>
                                   </div>
                               </div>
                               <div class="column"></div>
@@ -206,7 +208,6 @@ $(".showInfo").click(function() {
     $(".modalr").removeClass("is-active");
   });
   });
-
   document.addEventListener('DOMContentLoaded', () => {
 
 // Get all "navbar-burger" elements

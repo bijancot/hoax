@@ -2,7 +2,7 @@
 <html>
   <head>
   <?php
-    $msg = $_COOKIE['msg'];
+    $_COOKIE['msg'];
     // setcookie("msg", "", time() - 3600);
   ?>
     <meta charset="utf-8">
@@ -33,11 +33,11 @@
                                       <input class="input" type="text" name="team" placeholder="Masukkan nama unik kamu!">
                                     </div>
                                     <?php
-                                      if($msg != null){
+                                      if($_COOKIE['msg'] != null){
                                     ?>
-                                    <p class="help is-danger"><?= $msg ?></p>
+                                    <p class="help is-danger"><?= $_COOKIE['msg'] ?></p>
                                     <?php
-                                    setcookie("msg", "", time() - 3600);
+                                      setcookie("msg", "", time() - 3600);
                                       }else{
                                     ?>
                                     <p class="help">Minta ke bu guru ya! ;)</p>

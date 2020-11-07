@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
-$namaTeam = $_POST['team'];
+// $namaTeam = $_POST['team'];
 
-$_SESSION['uname'] = $namaTeam;
+// $_SESSION['uname'] = $namaTeam;
 ?>
 <html>
   <head>

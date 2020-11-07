@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
-$namaTeam = $_POST['team'];
+// $namaTeam = $_POST['team'];
 
-$_SESSION['uname'] = $namaTeam;
+// $_SESSION['uname'] = $namaTeam;
 ?>
 <html>
   <head>
@@ -162,7 +162,7 @@ $_SESSION['uname'] = $namaTeam;
                                   ?>
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
                                     <div class="column"><br/><a href="<?= $next?>"><button class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Mulai Praktik </strong></button></a><br/></div>
                                     <div class="column is-hidden-mobile"></div>
                                   </div>

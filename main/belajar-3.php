@@ -154,9 +154,9 @@ $_SESSION['uname'] = $namaTeam;
                                   <p class="has-text-justified">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
                                   <?php
                                   
-                                  if($_SESSION['uname'] === "anggur"){
+                                  if($_SESSION['uname'] == "anggur"){
                                     $next = "berita/berita-1";
-                                  }if($_SESSION['uname'] === "mangga"){
+                                  }if($_SESSION['uname'] == "mangga"){
                                     $next = "berita/berita-2";
                                   }
                                   ?>

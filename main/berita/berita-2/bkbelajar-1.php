@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <?php
 session_start();
-$namaTeam = $_POST['team'];
+// $namaTeam = $_POST['team'];
 
-$_SESSION['uname'] = $namaTeam;
-
-// if($namaTeam != "anggur" || $namaTeam != "mangga"){
-//   $msg = "Username tidak ada, tanya ke bu rahma ya!";
-//   setcookie("msg", $msg, time() + 3600, "/");
-//   header('Location: ../index.php');
-// }
-if($namaTeam == "anggur"|| $namaTeam == "mangga"){
-  // do nothing
-}else{
-  $msg = "Username tidak ada, tanya ke bu rahma ya!";
-  setcookie("msg", $msg, time() + 3600, "/");
-  header('Location: ../index.php');
-}
+// $_SESSION['uname'] = $namaTeam;
 ?>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
-
+    <link rel="stylesheet" href="../../../assets/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+
   </head>
   <body>
   <section class="hero is-primary is-fullheight">
@@ -132,7 +120,7 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="showInfo button is-light">
+          <a class="button is-light showInfo">
             <strong>Tentang aplikasi ini</strong>
           </a>
           <!-- <a class="button is-light">
@@ -149,8 +137,20 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
                 <div class="column"></div>
                 <div class="column is-four-fifths"> 
                     <div class="card">
-                        <div class="card-content">
-                        <div class="steps" id="stepsDemo">
+                        <div class="card-content ">
+                          </br>
+                          <div class="columns">
+                              <div class="column"></div>
+                              <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
+                                  <!-- <div class="columns is-mobile">
+                                    <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
+                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
+                                  </div> -->
+                                  <br/>
+                                  <div class="columns">
+                                    <div class="column"></div>
+                                    <div class="column">
+                                    <div class="steps" id="stepsDemo">
   <div class="step-item is-active is-success">
     <div class="step-marker">1</div>
     <div class="step-details">
@@ -291,10 +291,16 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
     </div>
   </div>
 </div>
-                          </br>
-                          <div class="columns">
-                              <div class="column"></div>
-                              <div class="column"><a href="pemanasan/pertama.php"><button class="button is-medium is-info is-center is-fullwidth"><strong>Mulai >></strong></button></a></div>
+                                    </div>
+                                    <div class="column"></div>
+                                  </div>
+
+                                  <div class="columns">
+                                    <div class="column"></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Langkah Selanjutnya : Investigasi</strong></button></a><br/></div>
+                                    <div class="column"></div>
+                                  </div>
+                              </div>
                               <div class="column"></div>
                           </div>
                         </div>
@@ -302,11 +308,9 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
                 </div>
                 <div class="column"></div>
             </div>
-
         </div>
     </div>
-  </section>
-  <div class="modal modalr">
+    <div class="modal modalr">
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
@@ -321,40 +325,42 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
       </footer>
     </div>
   </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/bulma-steps@2.2.1/dist/js/bulma-steps.min.js"></script>
 
 <script> bulmaSteps.attach(); </script>
   <script src="https://wikiki.github.io/js/main.js?v=201911011043"></script>
   <script type="text/javascript">
+  $( document ).ready(function() {
 
-$( document ).ready(function() {
+$(".showInfo").click(function() {
+    $(".modalr").addClass("is-active");  
+  });
 
-  $(".showInfo").click(function() {
-      $(".modalr").addClass("is-active");  
-    });
-
-    $(".keluar").click(function() {
-      $(".modalr").removeClass("is-active");
-    });
-    });
-
+  $(".keluar").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  $(".delete").click(function() {
+    $(".modalr").removeClass("is-active");
+  });
+  });
   document.addEventListener('DOMContentLoaded', () => {
-    
+
 // Get all "navbar-burger" elements
 const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-// // Check if there are any navbar burgers
+// Check if there are any navbar burgers
 if ($navbarBurgers.length > 0) {
 
-//   // Add a click event on each of them
+  // Add a click event on each of them
   $navbarBurgers.forEach( el => {
     el.addEventListener('click', () => {
 
-//       // Get the target from the "data-target" attribute
+      // Get the target from the "data-target" attribute
       const target = el.dataset.target;
       const $target = document.getElementById(target);
 
-//       // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
       el.classList.toggle('is-active');
       $target.classList.toggle('is-active');
 
@@ -364,5 +370,14 @@ if ($navbarBurgers.length > 0) {
 
 });
   </script>
+  <script async defer type="text/javascript">
+  (function() {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+  }());
+  // var $mcj = window.jQuery.noConflict(true);
+</script>
   </body>
 </html>

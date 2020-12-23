@@ -175,6 +175,12 @@ $_SESSION['uname'] = $namaTeam;
       <p class="step-title">Finish</p>
     </div>
   </div>
+  <div class="step-item">
+    <div class="step-marker">5</div>
+    <div class="step-details">
+      <p class="step-title">Finish</p>
+    </div>
+  </div>
   <div class="steps-content">
     <div class="step-content has-text-centered is-active">
       <div class="field is-horizontal">
@@ -277,6 +283,9 @@ $_SESSION['uname'] = $namaTeam;
           </div>
         </div>
       </div>
+    </div>
+    <div class="step-content has-text-centered">
+      <h1 class="title is-4">Your account is now created!</h1>
     </div>
     <div class="step-content has-text-centered">
       <h1 class="title is-4">Your account is now created!</h1>

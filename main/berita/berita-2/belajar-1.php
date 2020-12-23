@@ -142,12 +142,6 @@ session_start();
                           <div class="columns">
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
-                                <h1 class="title has-text-dark">
-                                    Tahap 1 : Cermati
-                                  </h1>
-                                  <h4 class="subtitle has-text-dark is-size-6-mobile">
-                                  Cermati berita yang tadi sudah kamu baca, kemudian isi isian di bawah
-                                  </h4>
                                   <!-- <div class="columns is-mobile">
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
@@ -173,12 +167,6 @@ session_start();
   </div>
   <div class="step-item">
     <div class="step-marker">4</div>
-    <div class="step-details">
-      <p class="step-title">Finish</p>
-    </div>
-  </div>
-  <div class="step-item">
-    <div class="step-marker">5</div>
     <div class="step-details">
       <p class="step-title">Finish</p>
     </div>
@@ -289,9 +277,6 @@ session_start();
     <div class="step-content has-text-centered">
       <h1 class="title is-4">Your account is now created!</h1>
     </div>
-    <div class="step-content has-text-centered">
-      <h1 class="title is-4">Your account is now created!</h1>
-    </div>
   </div>
   <div class="steps-actions">
     <div class="steps-action">
@@ -302,7 +287,6 @@ session_start();
     </div>
   </div>
 </div>
-
                                   <br/>
 
                                   <div class="columns">

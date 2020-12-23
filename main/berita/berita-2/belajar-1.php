@@ -13,9 +13,7 @@ session_start();
     <link rel="stylesheet" href="../../../assets/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bulma-steps@2.2.1/dist/js/bulma-steps.min.js"></script>
 
-    <script> bulmaSteps.attach(); </script>
 
   </head>
   <body>
@@ -329,6 +327,10 @@ session_start();
     </div>
   </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bulma-steps@2.2.1/dist/js/bulma-steps.min.js"></script>
+
+<script> bulmaSteps.attach(); </script>
+  <script src="https://wikiki.github.io/js/main.js?v=201911011043"></script>
   <script type="text/javascript">
   $( document ).ready(function() {
 

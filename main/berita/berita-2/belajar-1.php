@@ -150,7 +150,7 @@ $_SESSION['uname'] = $namaTeam;
                 <div class="column is-four-fifths"> 
                     <div class="card">
                         <div class="card-content">
-                        <h1 class="title has-text-dark">
+                        <h1 class="title has-text-dark has-text-centered">
                             Saatnya Ujian untuk <?= $_SESSION['uname']?> Semangat, dan sabar ini ujian !!
                             </h1>
                         <div class="steps" id="stepsDemo">

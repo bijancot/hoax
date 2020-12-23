@@ -156,25 +156,37 @@ session_start();
   <div class="step-item is-active is-success">
     <div class="step-marker">1</div>
     <div class="step-details">
-      <p class="step-title">Account</p>
+      <p class="step-title">Cermati</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">2</div>
     <div class="step-details">
-      <p class="step-title">Profile</p>
+      <p class="step-title">Investigas</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">3</div>
     <div class="step-details">
-      <p class="step-title">Social</p>
+      <p class="step-title">Narasi</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">4</div>
     <div class="step-details">
-      <p class="step-title">Finish</p>
+      <p class="step-title">Telaah</p>
+    </div>
+  </div>
+  <div class="step-item">
+    <div class="step-marker">5</div>
+    <div class="step-details">
+      <p class="step-title">Apresiasi</p>
+    </div>
+  </div>
+  <div class="step-item">
+    <div class="step-marker">6</div>
+    <div class="step-details">
+      <p class="step-title">Selesai !</p>
     </div>
   </div>
   <div class="steps-content">
@@ -281,15 +293,41 @@ session_start();
       </div>
     </div>
     <div class="step-content has-text-centered">
-      <h1 class="title is-4">Your account is now created!</h1>
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Facebook account</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" name="facebook" id="facebook" type="text" placeholder="Facebook account url" autofocus data-validate="require">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Twitter account</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input class="input" name="twitter" id="twitter" type="text" placeholder="Twitter account url" autofocus data-validate="require">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="step-content has-text-centered">
+      <h1 class="title is-4 has-text-dark">Selesai!</h1>
     </div>
   </div>
   <div class="steps-actions">
     <div class="steps-action">
-      <a href="#" data-nav="previous" class="button is-light">Previous</a>
+      <a href="#" data-nav="previous" class="button is-light">Sebelumnya</a>
     </div>
     <div class="steps-action">
-      <a href="#" data-nav="next" class="button is-light">Next</a>
+      <a href="#" data-nav="next" class="button is-light">Selanjutnya</a>
     </div>
   </div>
 </div>

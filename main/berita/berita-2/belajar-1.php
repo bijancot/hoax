@@ -13,10 +13,10 @@ session_start();
     <link rel="stylesheet" href="../../../assets/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-steps@2.2.1/dist/js/bulma-steps.min.js"></script>
 
     <script> bulmaSteps.attach(); </script>
-    
+
   </head>
   <body>
   <section class="hero is-primary is-fullheight">
@@ -369,5 +369,14 @@ if ($navbarBurgers.length > 0) {
 
 });
   </script>
+  <script async defer type="text/javascript">
+  (function() {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+  }());
+  // var $mcj = window.jQuery.noConflict(true);
+</script>
   </body>
 </html>

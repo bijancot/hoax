@@ -146,7 +146,11 @@ session_start();
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
                                   </div> -->
-                                  <div class="steps" id="stepsDemo">
+                                  <br/>
+                                  <div class="columns">
+                                    <div class="column"></div>
+                                    <div class="column">
+                                    <div class="steps" id="stepsDemo">
   <div class="step-item is-active is-success">
     <div class="step-marker">1</div>
     <div class="step-details">
@@ -287,7 +291,9 @@ session_start();
     </div>
   </div>
 </div>
-                                  <br/>
+                                    </div>
+                                    <div class="column"></div>
+                                  </div>
 
                                   <div class="columns">
                                     <div class="column"></div>

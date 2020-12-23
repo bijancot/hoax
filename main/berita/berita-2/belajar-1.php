@@ -183,12 +183,6 @@ session_start();
       <p class="step-title">Apresiasi</p>
     </div>
   </div>
-  <div class="step-item">
-    <div class="step-marker">6</div>
-    <div class="step-details">
-      <p class="step-title">Selesai !</p>
-    </div>
-  </div>
   <div class="steps-content">
     <div class="step-content has-text-centered is-active">
       <div class="field is-horizontal">

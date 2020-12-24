@@ -197,7 +197,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="field is-verti">
+      <div class="field is-horizontal">
         <div class="field-label is-normal">
           <label class="label">Dugaan Sementara : </label><br/>
         </div>

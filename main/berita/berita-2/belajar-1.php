@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 session_start();
-echo $_SESSION['uname'];
+// echo $_SESSION['uname'];
 
 // if($namaTeam != "anggur" || $namaTeam != "mangga"){
 //   $msg = "Username tidak ada, tanya ke bu rahma ya!";
@@ -155,50 +155,51 @@ echo $_SESSION['uname'];
   <div class="step-item is-active is-success">
     <div class="step-marker">1</div>
     <div class="step-details">
-      <p class="step-title">Account</p>
+      <p class="step-title">Cermati</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">2</div>
     <div class="step-details">
-      <p class="step-title">Profile</p>
+      <p class="step-title">Investigasi</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">3</div>
     <div class="step-details">
-      <p class="step-title">Social</p>
+      <p class="step-title">Narasi</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">4</div>
     <div class="step-details">
-      <p class="step-title">Finish</p>
+      <p class="step-title">Telaah</p>
     </div>
   </div>
   <div class="step-item">
     <div class="step-marker">5</div>
     <div class="step-details">
-      <p class="step-title">Finish</p>
+      <p class="step-title">Apresiasi</p>
     </div>
   </div>
   <div class="steps-content">
     <div class="step-content has-text-centered is-active">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Username</label>
+          <label class="label">Identifikasi kata kunci</label><br/>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require">
+              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
+              <textarea class="textarea" nama="kata-kunci" placeholder="e.g. Hello world"></textarea>
             </div>
           </div>
         </div>
       </div>
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Password</label>
+          <label class="label">Dugaan Sementara : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
@@ -208,7 +209,7 @@ echo $_SESSION['uname'];
           </div>
         </div>
       </div>
-      <div class="field is-horizontal">
+      <!-- <div class="field is-horizontal">
         <div class="field-label is-normal">
           <label class="label">Confirm password</label>
         </div>
@@ -219,7 +220,7 @@ echo $_SESSION['uname'];
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="step-content has-text-centered">
       <div class="field is-horizontal">

@@ -3,7 +3,7 @@
 session_start();
 $namaTeam = $_POST['team'];
 
-$_SESSION['uname'] = $namaTeam;
+$_SESSION['uname'] = $_POST['team'];
 
 // if($namaTeam != "anggur" || $namaTeam != "mangga"){
 //   $msg = "Username tidak ada, tanya ke bu rahma ya!";
@@ -150,7 +150,7 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
                     <div class="card">
                         <div class="card-content">
                           <h1 class="title has-text-dark">
-                            Halo <?= $namaTeam?> Selamat datang di Leres. !!
+                            Halo <?= $_SESSION['uname']?> Selamat datang di Leres. !!
                             </h1>
                             <br/>
                             <h2 class="subtitle has-text-dark">

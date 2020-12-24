@@ -186,7 +186,7 @@ session_start();
     <div class="step-content has-text-centered is-active">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Identifikasi kata kunci</label><br/>
+          <label class="label">Identifikasi kata kunci : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
@@ -197,14 +197,14 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="field is-horizontal">
+      <div class="field is-verti">
         <div class="field-label is-normal">
           <label class="label">Dugaan Sementara : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control has-icon has-icon-right">
-              <input class="input" type="password" name="password" id="password" placeholder="Password" data-validate="require">
+             <input type="radio" name="dugaan" id="hoax" value="hoax">&nbsp;&nbsp;<label for="hoax">Hoax</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
             </div>
           </div>
         </div>

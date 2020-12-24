@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <?php
 session_start();
-$namaTeam = $_POST['team'];
-
-$_SESSION['uname'] = $namaTeam;
+echo $_SESSION['uname'];
 
 // if($namaTeam != "anggur" || $namaTeam != "mangga"){
 //   $msg = "Username tidak ada, tanya ke bu rahma ya!";

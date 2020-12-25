@@ -164,7 +164,7 @@ session_start();
 
                                   <div class="columns">
                                     <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai Kuis!</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="../../kuis/"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai Kuis!</strong></button></a><br/></div>
                                     <div class="column"></div>
                                   </div>
                               </div>

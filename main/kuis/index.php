@@ -186,20 +186,20 @@ session_start();
     <div class="step-content has-text-centered is-active">
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Identifikasi kata kunci : </label><br/>
+          <label class="label">Identifikasi kata kunci </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
               <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-              <textarea class="textarea" nama="kata-kunci" placeholder="e.g. Hello world"></textarea>
+              <textarea class="textarea" name="kata-kunci" placeholder="e.g. Hello world"></textarea>
             </div>
           </div>
         </div>
       </div>
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Dugaan Sementara : </label><br/>
+          <label class="label">Dugaan Sementara </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
@@ -209,69 +209,46 @@ session_start();
           </div>
         </div>
       </div>
-      <!-- <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Confirm password</label>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control has-icon has-icon-right">
-              <input class="input" type="password" name="password_confirm" id="password_confirm" placeholder="Confirm password" data-validate="require">
-            </div>
-          </div>
-        </div>
-      </div> -->
+
     </div>
-    <div class="step-content has-text-centered">
-    <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">PRO : </label><br/>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control">
-              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-              <textarea class="textarea" nama="pro" placeholder="e.g. Hello world"></textarea>
-            </div>
+    <div class="step-content">
+
+      <div class="field">
+          <label class="label">PRO</label><br/>
+          <div class="control">
+            <textarea class="textarea" name="pro" placeholder="Sampaikan berita pro"></textarea>
           </div>
-        </div>
+          <p class="help">This is a help text</p>
       </div>
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">KONTRA : </label><br/>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control">
-              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-              <textarea class="textarea" nama="kontra" placeholder="e.g. Hello world"></textarea>
-            </div>
+
+      <div class="field">
+          <label class="label">KONTRA</label><br/>
+          <div class="control">
+            <textarea class="textarea" name="kontra" placeholder="Sampaikan berita kontra"></textarea>
           </div>
-        </div>
+          <p class="help">This is a help text</p>
       </div>
+
+
     </div>
-    <div class="step-content has-text-centered">
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Narasikan : </label><br/>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control">
-              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-              <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea>
-            </div>
+    <div class="step-content">
+
+      <div class="field">
+          <label class="label">Narasikan </label><br/>
+          <div class="control">
+            <textarea class="textarea" name="Narasi" placeholder="Narasikann!"></textarea>
           </div>
-        </div>
+          <p class="help">This is a help text</p>
       </div>
+
     </div>
-    <div class="step-content has-text-centered">
+    <div class="step-content">
       <div class="columns">
         <div class="column">
         <h1 class="title is-4 has-text-success">PRO</h1>
         
         <div class="field">
-          <label class="label">Sumber Berita : </label><br/>
+          <label class="label">Sumber Berita </label><br/>
           <div class="control">
           <input class="input" name="sumber-pro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
           </div>
@@ -279,7 +256,7 @@ session_start();
         </div>
 
         <div class="field">
-          <label class="label">Narasumber : </label><br/>
+          <label class="label">Narasumber </label>
           <div class="control">
           <input class="input" name="narasumber-pro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
@@ -287,9 +264,9 @@ session_start();
         </div>
 
         <div class="field">
-          <label class="label">Data yang disajikan : </label><br/>
+          <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" nama="data-pro" placeholder="Tulis di sini"></textarea>
+          <textarea class="textarea" name="data-pro" placeholder="Tulis di sini"></textarea>
           </div>
           <p class="help">This is a help text</p>
         </div>
@@ -300,7 +277,7 @@ session_start();
         <h1 class="title is-4 has-text-danger">KONTRA</h1>
 
         <div class="field">
-          <label class="label">Sumber Berita : </label><br/>
+          <label class="label">Sumber Berita </label>
           <div class="control">
           <input class="input" name="sumber-kon" id="sumber-kon" type="text" placeholder="sumber berita Kontra" autofocus data-validate="require">
           </div>
@@ -308,7 +285,7 @@ session_start();
         </div>
 
         <div class="field">
-          <label class="label">Narasumber : </label><br/>
+          <label class="label">Narasumber </label>
           <div class="control">
           <input class="input" name="narasumber-kon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
@@ -316,9 +293,9 @@ session_start();
         </div>
 
         <div class="field">
-          <label class="label">Data yang disajikan : </label><br/>
+          <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" nama="data-kon" placeholder="Tulis di sini"></textarea>
+          <textarea class="textarea" name="data-kon" placeholder="Tulis di sini"></textarea>
           </div>
           <p class="help">This is a help text</p>
         </div>

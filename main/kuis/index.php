@@ -183,38 +183,29 @@ session_start();
     </div>
   </div>
   <div class="steps-content">
-    <div class="step-content has-text-centered is-active">
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Identifikasi kata kunci </label><br/>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control">
-              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-              <textarea class="textarea" name="kata-kunci" placeholder="e.g. Hello world"></textarea>
-            </div>
+    <div class="step-content is-active">
+    
+      <div class="field">
+          <label class="label">Identifikasi kata kunci</label>
+          <div class="control">
+          <textarea class="textarea" name="kata-kunci" placeholder="e.g. Hello world"></textarea>
           </div>
-        </div>
+          <p class="help">This is a help text</p>
       </div>
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Dugaan Sementara </label><br/>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control has-icon has-icon-right">
-             <input type="radio" name="dugaan" id="hoax" value="hoax">&nbsp;&nbsp;<label for="hoax">Hoax</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
-            </div>
+
+      <div class="field">
+          <label class="label">Dugaan Sementara</label>
+          <div class="control">
+          <input type="radio" name="dugaan" id="hoax" value="hoax">&nbsp;&nbsp;<label for="hoax">Hoax</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
           </div>
-        </div>
+          <p class="help">This is a help text</p>
       </div>
 
     </div>
     <div class="step-content">
 
       <div class="field">
-          <label class="label">PRO</label><br/>
+          <label class="label">PRO</label>
           <div class="control">
             <textarea class="textarea" name="pro" placeholder="Sampaikan berita pro"></textarea>
           </div>
@@ -222,7 +213,7 @@ session_start();
       </div>
 
       <div class="field">
-          <label class="label">KONTRA</label><br/>
+          <label class="label">KONTRA</label>
           <div class="control">
             <textarea class="textarea" name="kontra" placeholder="Sampaikan berita kontra"></textarea>
           </div>
@@ -234,7 +225,7 @@ session_start();
     <div class="step-content">
 
       <div class="field">
-          <label class="label">Narasikan </label><br/>
+          <label class="label">Narasikan </label>
           <div class="control">
             <textarea class="textarea" name="Narasi" placeholder="Narasikann!"></textarea>
           </div>
@@ -248,7 +239,7 @@ session_start();
         <h1 class="title is-4 has-text-success">PRO</h1>
         
         <div class="field">
-          <label class="label">Sumber Berita </label><br/>
+          <label class="label">Sumber Berita </label>
           <div class="control">
           <input class="input" name="sumber-pro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
           </div>

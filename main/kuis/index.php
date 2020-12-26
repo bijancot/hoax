@@ -270,94 +270,59 @@ session_start();
         <div class="column">
         <h1 class="title is-4 has-text-success">PRO</h1>
         
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Sumber Berita : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <input class="input" name="sumber-pro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
-                  <!-- <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea> -->
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Sumber Berita : </label><br/>
+          <div class="control">
+          <input class="input" name="sumber-pro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
           </div>
+          <p class="help">This is a help text</p>
+        </div>
 
-          <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Narasumber : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <input class="input" name="narasumber-pro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require">
-                  <!-- <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea> -->
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Narasumber : </label><br/>
+          <div class="control">
+          <input class="input" name="narasumber-pro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
+          <p class="help">This is a help text</p>
+        </div>
 
-          <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Data yang disajikan : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <!-- <input class="input" name="data-pro" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-                  <textarea class="textarea" nama="data-pro" placeholder="Tulis di sini"></textarea>
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Data yang disajikan : </label><br/>
+          <div class="control">
+          <textarea class="textarea" nama="data-pro" placeholder="Tulis di sini"></textarea>
           </div>
+          <p class="help">This is a help text</p>
+        </div>
 
         </div>
         <div class="column is-one-fifth"><h1 class="title is-4 has-text-dark">VS</h1></div>
         <div class="column">
-        <h1 class="title is-4 has-text-danger">Kontra</h1>
+        <h1 class="title is-4 has-text-danger">KONTRA</h1>
 
-        <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Sumber Berita : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <input class="input" name="sumber-kon" id="sumber-kon" type="text" placeholder="sumber berita kontra autofocus data-validate="require">
-                  <!-- <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea> -->
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Sumber Berita : </label><br/>
+          <div class="control">
+          <input class="input" name="sumber-kon" id="sumber-kon" type="text" placeholder="sumber berita Kontra" autofocus data-validate="require">
           </div>
+          <p class="help">This is a help text</p>
+        </div>
 
-          <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Narasumber : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <input class="input" name="narasumber-kon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require">
-                  <!-- <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea> -->
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Narasumber : </label><br/>
+          <div class="control">
+          <input class="input" name="narasumber-kon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
+          <p class="help">This is a help text</p>
+        </div>
 
-          <div class="field is-horizontal">
-          <div class="field-label is-normal">
-              <label class="label">Data yang disajikan : </label><br/>
-            </div>
-            <div class="field-body">
-              <div class="field">
-                <div class="control">
-                  <!-- <input class="input" name="data-pro" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
-                  <textarea class="textarea" nama="data-kon" placeholder="Tulis di sini"></textarea>
-                </div>
-              </div>
-            </div>
+        <div class="field">
+          <label class="label">Data yang disajikan : </label><br/>
+          <div class="control">
+          <textarea class="textarea" nama="data-kon" placeholder="Tulis di sini"></textarea>
           </div>
+          <p class="help">This is a help text</p>
+        </div>
+
         </div>
      </div>
     </div>

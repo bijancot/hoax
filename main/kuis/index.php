@@ -182,9 +182,10 @@ session_start();
       <p class="step-title">Apresiasi</p>
     </div>
   </div>
+  <form action="data.php" method="POST">
   <div class="steps-content">
     <div class="step-content is-active">
-    
+
       <div class="field">
           <label class="label">Identifikasi kata kunci</label>
           <div class="control">
@@ -295,9 +296,33 @@ session_start();
      </div>
     </div>
     <div class="step-content has-text-centered">
-    <h1 class="title is-4">Your account is now created!</h1>
+    
+        <div class="field">
+          <label class="label">Presentasi </label>
+          <div class="control">
+          <textarea class="textarea" name="presentasi" placeholder="Tulis di sini"></textarea>
+          </div>
+          <p class="help">This is a help text</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Pembaruan Informasi </label>
+          <div class="control">
+          <textarea class="textarea" name="informasi" placeholder="Tulis temuan kamu di sini"></textarea>
+          </div>
+          <p class="help">This is a help text</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Tanggapan </label>
+          <div class="control">
+          <textarea class="textarea" name="tanggapan" placeholder="Tulis tanggapan di sini"></textarea>
+          </div>
+          <p class="help">This is a help text</p>
+        </div>
     </div>
   </div>
+  </form>
   <div class="steps-actions">
     <div class="steps-action">
       <a href="#" data-nav="previous" class="button is-light">Previous</a>

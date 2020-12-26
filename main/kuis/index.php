@@ -320,6 +320,12 @@ session_start();
           </div>
           <p class="help">This is a help text</p>
         </div>
+
+        <div class="columns">
+          <div class="column"></div>
+          <div class="column"><button class="button is-success">Selesai mengerjakan</button></div>
+          <div class="column"></div>
+        </div>
     </div>
   </div>
   </form>
@@ -333,11 +339,11 @@ session_start();
   </div>
 </div>
                           </br>
-                          <div class="columns">
+                          <!-- <div class="columns">
                               <div class="column"></div>
                               <div class="column"><a href="pemanasan/pertama.php"><button class="button is-medium is-info is-center is-fullwidth"><strong>Mulai >></strong></button></a></div>
                               <div class="column"></div>
-                          </div>
+                          </div> -->
                         </div>
                     </div>
                 </div>

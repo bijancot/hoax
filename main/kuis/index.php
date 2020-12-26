@@ -223,74 +223,61 @@ session_start();
       </div> -->
     </div>
     <div class="step-content has-text-centered">
-      <div class="field is-horizontal">
+    <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Firstname</label>
+          <label class="label">PRO : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <input class="input" name="firstname" id="firstname" type="text" placeholder="Firstname" autofocus data-validate="require">
+              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
+              <textarea class="textarea" nama="pro" placeholder="e.g. Hello world"></textarea>
             </div>
           </div>
         </div>
       </div>
       <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Last name</label>
+          <label class="label">KONTRA : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
-            <div class="control has-icon has-icon-right">
-              <input class="input" type="text" name="lastname" id="lastname" placeholder="Last name" data-validate="require">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Email</label>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control has-icon has-icon-right">
-              <input class="input" type="email" name="email" id="email" placeholder="Email" data-validate="require">
+            <div class="control">
+              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
+              <textarea class="textarea" nama="kontra" placeholder="e.g. Hello world"></textarea>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="step-content has-text-centered">
-      <div class="field is-horizontal">
+    <div class="field is-horizontal">
         <div class="field-label is-normal">
-          <label class="label">Facebook account</label>
+          <label class="label">Narasikan : </label><br/>
         </div>
         <div class="field-body">
           <div class="field">
             <div class="control">
-              <input class="input" name="facebook" id="facebook" type="text" placeholder="Facebook account url" autofocus data-validate="require">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="field is-horizontal">
-        <div class="field-label is-normal">
-          <label class="label">Twitter account</label>
-        </div>
-        <div class="field-body">
-          <div class="field">
-            <div class="control">
-              <input class="input" name="twitter" id="twitter" type="text" placeholder="Twitter account url" autofocus data-validate="require">
+              <!-- <input class="input" name="username" id="username" type="text" placeholder="Username" autofocus data-validate="require"> -->
+              <textarea class="textarea" nama="Narasi" placeholder="e.g. Hello world"></textarea>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="step-content has-text-centered">
-      <h1 class="title is-4">Your account is now created!</h1>
+      <div class="columns">
+        <div class="column">
+        <h1 class="title is-4 has-text-success">PRO</h1>
+        </div>
+        <div class="column is-one-fifth"><h1 class="title is-4 has-text-dark">PRO</h1></div>
+        <div class="column">
+        <h1 class="title is-4 has-text-danger">Kontra</h1>
+        </div>
+     </div>
     </div>
     <div class="step-content has-text-centered">
-      <h1 class="title is-4">Your account is now created!</h1>
+    <h1 class="title is-4">Your account is now created!</h1>
     </div>
   </div>
   <div class="steps-actions">

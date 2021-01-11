@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <?php
-  session_start();
-
-  $user = $_SESSION['uname'];
-  ?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -154,7 +149,7 @@
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
                           <div class="is-hidden-desktop penjelasan">
                             <h2 class="title has-text-dark">Latihan 2</h2><br/>
-                            Okay team <?= $user ?>, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta? 
+                            Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
                             <div class="columns">
@@ -185,7 +180,7 @@
                     
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
                       <h2 class="title has-text-dark">Latihan 2</h2>
-                      Okay team <?= $user ?>, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta?
+                      Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta?
                       <br/><br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">

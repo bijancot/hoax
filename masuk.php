@@ -2,6 +2,7 @@
 <html>
   <head>
   <?php
+  setcookie("msg", "", time() - 3600);
 session_start();
 $namaTeam = $_POST['team'];
 

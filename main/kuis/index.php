@@ -295,7 +295,6 @@ session_start();
         </div>
      </div>
     </div>
-</div>
     <div class="step-content has-text-centered">
     
         <div class="field">

@@ -17,7 +17,7 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
 }else{
   $msg = "Username tidak ada, tanya ke bu rahma ya!";
   setcookie("msg", $msg, time() + 3600, "/");
-  header('Location: ../index.php');
+  header('Location: masuk.php');
 }
 ?>
     <meta charset="utf-8">

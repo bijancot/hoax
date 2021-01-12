@@ -2,7 +2,9 @@
 <html>
   <head>
   <?php
-  setcookie("msg", "", time() - 3600);
+  if($_COOKIE['msg'] != null){
+    setcookie("msg", "", time() - 3600);
+  }
 session_start();
 $namaTeam = $_POST['team'];
 

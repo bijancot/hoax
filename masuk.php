@@ -2,9 +2,6 @@
 <html>
   <head>
   <?php
-  if($_COOKIE['msg'] != null){
-    setcookie("msg", "", time() - 3600);
-  }
 session_start();
 $namaTeam = $_POST['team'];
 
@@ -44,7 +41,7 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
 
                     <div class="card">
                         <div class="card-content">
-                            <form action="main/" method="post" id="createRoom">
+                            <form action="main/masuk.php" method="post" id="createRoom">
                                 <div class="field">
                                     <label class="label">Nama Unik</label>
                                     <div class="control">

@@ -203,6 +203,7 @@ session_start();
       </div>
 
     </div>
+</div>
     <div class="step-content">
 
       <div class="field">

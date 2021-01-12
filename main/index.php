@@ -17,6 +17,12 @@ if($namaTeam == "anggur"|| $namaTeam == "mangga"){
   setcookie("msg", $msg, time() + 3600, "/");
   header('Location: ../masuk.php');
 }
+
+if($_SESSION['uname'] == "anggur"){
+  header('Location: berita/berita-1');
+}if($_SESSION['uname'] == "mangga"){
+  header('Location: berita/berita-2');
+}
 ?>
 <html>
   <head>

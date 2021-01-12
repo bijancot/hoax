@@ -154,11 +154,7 @@ session_start();
                                   <p class="has-text-justified">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
                                   <?php
                                   
-                                  if($_SESSION['uname'] == "anggur"){
-                                    $next = "berita/berita-1";
-                                  }if($_SESSION['uname'] == "mangga"){
-                                    $next = "berita/berita-2";
-                                  }
+                                  
                                   ?>
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>

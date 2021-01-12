@@ -182,10 +182,11 @@ session_start();
       <p class="step-title">Apresiasi</p>
     </div>
   </div>
-  <form action="data.php" method="POST">
+  
   <div class="steps-content">
-    <div class="step-content is-active">
 
+    <div class="step-content is-active">
+    <form action="data.php" method="POST">
       <div class="field">
           <label class="label">Identifikasi kata kunci</label>
           <div class="control">
@@ -326,10 +327,11 @@ session_start();
           <div class="column"><button class="button is-success">Selesai mengerjakan</button></div>
           <div class="column"></div>
         </div>
+
+  </form>
     </div>
 
   </div>
-  </form>
   <div class="steps-actions">
     <div class="steps-action">
       <a href="#" data-nav="previous" class="button is-light">Previous</a>

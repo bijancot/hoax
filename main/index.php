@@ -13,7 +13,7 @@ $_SESSION['uname'] = $_POST['team'];
 if($namaTeam == "anggur"|| $namaTeam == "mangga"){
   // do nothing
 }else{
-  $msg = "Username tidak ada, tanya ke bu rahma ya!";
+  $msg = "Username tidak ada, tanya ke guru kamu ya!";
   setcookie("msg", $msg, time() + 3600, "/");
   header('Location: ../masuk.php');
 }

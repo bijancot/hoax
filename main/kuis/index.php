@@ -203,7 +203,6 @@ session_start();
       </div>
 
     </div>
-</div>
     <div class="step-content">
 
       <div class="field">
@@ -296,6 +295,7 @@ session_start();
         </div>
      </div>
     </div>
+</div>
     <div class="step-content has-text-centered">
     
         <div class="field">
@@ -328,6 +328,7 @@ session_start();
           <div class="column"></div>
         </div>
     </div>
+
   </div>
   </form>
   <div class="steps-actions">

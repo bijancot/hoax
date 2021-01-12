@@ -2,9 +2,10 @@
 <html>
   <head>
   <?php
-    $_COOKIE['msg'];
-    // setcookie("msg", "", time() - 3600);
-    $_SESSION['uname'] = $_POST['team'];
+session_start();
+$namaTeam = $_POST['team'];
+
+$_SESSION['uname'] = $_POST['team'];
 
 // if($namaTeam != "anggur" || $namaTeam != "mangga"){
 //   $msg = "Username tidak ada, tanya ke bu rahma ya!";
@@ -14,11 +15,11 @@
 if($namaTeam == "anggur"|| $namaTeam == "mangga"){
   // do nothing
 }else{
-  $msg = "Username tidak ada, tanya ke guru kamu ya!";
+  $msg = "Username tidak ada, tanya ke bu rahma ya!";
   setcookie("msg", $msg, time() + 3600, "/");
-  header('Location: masuk.php');
+  header('Location: ../index.php');
 }
-  ?>
+?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>

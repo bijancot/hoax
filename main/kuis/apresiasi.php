@@ -18,6 +18,6 @@
 
 
     echo $berita;
+    echo $dataKon."asd";
 
-    setcookie("berita", "", time() - 3600, '/');
 ?>

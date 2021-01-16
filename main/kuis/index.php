@@ -245,7 +245,8 @@ session_start();
           <div class="control">
           <input class="input" name="sumber-pro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
           </div>
-          <p class="help">This is a help text</p>
+          <p class="help">Kasih pendapat kamu tentang sumber berita pro</p>
+          <textarea class="textarea" name="des-sumber-pro" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>
         </div>
 
         <div class="field">
@@ -253,15 +254,15 @@ session_start();
           <div class="control">
           <input class="input" name="narasumber-pro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
-          <p class="help">This is a help text</p>
+          <p class="help"><p class="help">Kasih pendapat kamu tentang narasumber berita pro</p></p>
+          <textarea class="textarea" name="des-narasumber-pro" placeholder="Jelaskan pendapat anda tentang narasumber berita kontra yang sudah anda temukan"></textarea>
         </div>
 
         <div class="field">
           <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" name="data-pro" placeholder="Tulis di sini"></textarea>
+          <textarea class="textarea" name="data-pro" placeholder="Tuliskan hasil analisis data yang ditampilkan di sumber berita pro"></textarea>
           </div>
-          <p class="help">This is a help text</p>
         </div>
 
         </div>
@@ -274,7 +275,8 @@ session_start();
           <div class="control">
           <input class="input" name="sumber-kon" id="sumber-kon" type="text" placeholder="sumber berita Kontra" autofocus data-validate="require">
           </div>
-          <p class="help">This is a help text</p>
+          <p class="help">Kasih pendapat kamu tentang sumber berita kontra</p>
+          <textarea class="textarea" name="des-sumber-kon" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>
         </div>
 
         <div class="field">
@@ -282,15 +284,15 @@ session_start();
           <div class="control">
           <input class="input" name="narasumber-kon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require">
           </div>
-          <p class="help">This is a help text</p>
+          <p class="help">Kasih pendapat kamu tentang narasumber berita kontra</p>
+          <textarea class="textarea" name="des-narasumber-kon" placeholder="Jelaskan pendapat anda tentang narasumber berita kontra yang sudah anda temukan"></textarea>
         </div>
 
         <div class="field">
           <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" name="data-kon" placeholder="Tulis di sini"></textarea>
+          <textarea class="textarea" name="data-kon" placeholder="Tuliskan hasil analisis data yang ditampilkan pada sumber berita kontra  "></textarea>
           </div>
-          <p class="help">This is a help text</p>
         </div>
 
         </div>

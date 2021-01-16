@@ -15,6 +15,12 @@ session_start();
 //   setcookie("msg", $msg, time() + 3600, "/");
 //   header('Location: ../index.php');
 // }
+
+if($_SESSION['uname'] == "anggur"){
+  setcookie("berita", "Warga Malang Temukan Pembangkit Listrik Tenaga Hampa", time() + 3600, '/');
+}if($_SESSION['uname'] == "mangga"){
+  setcookie("berita", "IronMan Dari Bali", time() + 3600, '/');
+}
 ?>
 <html>
   <head>

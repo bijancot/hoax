@@ -140,7 +140,7 @@ session_start();
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
                                 <h1 class="title has-text-dark">
-                                    Warga Malang Temukan Pembangkit Listrik Tenaga Hampa
+                                    Iron Man dari Indonesia
                                   </h1>
                                   <h4 class="subtitle has-text-dark is-size-6-mobile">
                                   Baca dengan Cermat, agar dapat menganalisis tahapn yang harus dilakukan

@@ -8,6 +8,7 @@ $graph = OpenGraph::fetch('https://oto.detik.com/catatan-pengendara-mobil/d-5336
 //     echo $key['url'];
 //     echo $key['image'];
 // }
-var_dump($graph);
+var_dump($graph->type);
+var_dump($graph[0]->type);
 
 ?>

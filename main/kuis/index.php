@@ -206,7 +206,7 @@ if($_SESSION['uname'] == "anggur"){
           <div class="control">
           <input type="radio" name="dugaan" id="hoax" value="hoaks">&nbsp;&nbsp;<label for="hoax">Hoaks</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
           </div>
-          <p class="help">This is a help text</p>
+          <p class="help">Pilih salah satu</p>
       </div>
 
     </div>
@@ -246,7 +246,7 @@ if($_SESSION['uname'] == "anggur"){
         <div class="field">
           <label class="label">Sumber Berita </label>
           <div class="control">
-          <input class="input" name="sumberPro" id="sumber-pro" type="text" placeholder="sumber berita pro" autofocus data-validate="require">
+          <input class="input" name="sumberPro" id="sumber-pro" type="text" placeholder="sumber berita pro (masukkan 1 yang paling ultimate)" autofocus data-validate="require">
           </div>
           <p class="help">Kasih pendapat kamu tentang sumber berita pro</p>
           <textarea class="textarea" name="desSumberPro" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>
@@ -276,7 +276,7 @@ if($_SESSION['uname'] == "anggur"){
         <div class="field">
           <label class="label">Sumber Berita </label>
           <div class="control">
-          <input class="input" name="sumberKon" id="sumber-kon" type="text" placeholder="sumber berita Kontra" autofocus data-validate="require">
+          <input class="input" name="sumberKon" id="sumber-kon" type="text" placeholder="sumber berita Kontra (masukkan 1 yang paling ultimate)" autofocus data-validate="require">
           </div>
           <p class="help">Kasih pendapat kamu tentang sumber berita kontra</p>
           <textarea class="textarea" name="desSumberKon" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>

@@ -134,12 +134,7 @@ require_once('og.php');
                                     :
                                 </h1>
                                 <h2 class="subtitle">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, ad, consequatur
-                                    obcaecati fugiat, optio corporis temporibus voluptate vero corrupti dolor veniam
-                                    at! Vel repellendus sapiente sunt vero reiciendis eum in? Lorem ipsum dolor sit
-                                    amet consectetur, adipisicing elit. Dicta est eveniet, odio fugit sint animi eum
-                                    cumque. Nobis iure placeat excepturi. Praesentium asperiores sunt, eius
-                                    perspiciatis labore itaque veniam ipsam?
+                                    <?= $narasi?>
                                 </h2>
                                 <br/><br/>
                                 <h1 class="title is-size-3">
@@ -194,7 +189,7 @@ require_once('og.php');
                                             </p>
                                             <div class="card-image">
                                                 <figure class="image is-4by3">
-                                                    <img src="<?= $fotoPro?>" alt="Placeholder image">
+                                                    <img src="<?= $fotoKon?>" alt="Placeholder image">
                                                 </figure>
                                             </div>
                                             <div class="card-content">

@@ -196,15 +196,14 @@ if($_SESSION['uname'] == "anggur"){
       <div class="field">
           <label class="label">Identifikasi kata kunci</label>
           <div class="control">
-          <textarea class="textarea" name="kata-kunci" placeholder="e.g. Hello world"></textarea>
+          <textarea class="textarea" name="kata-kunci" placeholder="Masukkan kata kunci" required></textarea>
           </div>
-          <p class="help">This is a help text</p>
       </div>
 
       <div class="field">
           <label class="label">Dugaan Sementara</label>
           <div class="control">
-          <input type="radio" name="dugaan" id="hoax" value="hoaks">&nbsp;&nbsp;<label for="hoax">Hoaks</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
+          <input type="radio" name="dugaan" id="hoax" value="hoaks" required>&nbsp;&nbsp;<label for="hoax">Hoaks</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta" required>&nbsp;&nbsp;<label for="fakta">Fakta</label>
           </div>
           <p class="help">Pilih salah satu</p>
       </div>
@@ -215,14 +214,14 @@ if($_SESSION['uname'] == "anggur"){
       <div class="field">
           <label class="label">PRO</label>
           <div class="control">
-            <textarea class="textarea" name="pro" placeholder="Masukkan berita yang pro jika temukan beberapa pisahkan dengan koma :D"></textarea>
+            <textarea class="textarea" name="pro" placeholder="Masukkan berita yang pro jika temukan beberapa pisahkan dengan koma :D" required></textarea>
           </div>
       </div>
 
       <div class="field">
           <label class="label">KONTRA</label>
           <div class="control">
-            <textarea class="textarea" name="kontra" placeholder="Masukkan berita yang kontra jika temukan beberapa pisahkan dengan koma :D"></textarea>
+            <textarea class="textarea" name="kontra" placeholder="Masukkan berita yang kontra jika temukan beberapa pisahkan dengan koma (,) :D" required></textarea>
           </div>
       </div>
 
@@ -233,7 +232,7 @@ if($_SESSION['uname'] == "anggur"){
       <div class="field">
           <label class="label">Narasikan </label>
           <div class="control">
-            <textarea class="textarea" name="Narasi" placeholder="Narasikann temuan kamu (semacam tanggapan gitu)"></textarea>
+            <textarea class="textarea" name="Narasi" placeholder="Narasikann temuan kamu (semacam tanggapan gitu)" required></textarea>
           </div>
       </div>
 
@@ -246,25 +245,25 @@ if($_SESSION['uname'] == "anggur"){
         <div class="field">
           <label class="label">Sumber Berita </label>
           <div class="control">
-          <input class="input" name="sumberPro" id="sumber-pro" type="text" placeholder="sumber berita pro (masukkan 1 yang paling ultimate)" autofocus data-validate="require">
+          <input class="input" name="sumberPro" id="sumber-pro" type="text" placeholder="sumber berita pro (masukkan 1 yang paling ultimate)" autofocus data-validate="require" required>
           </div>
           <p class="help">Kasih pendapat kamu tentang sumber berita pro</p>
-          <textarea class="textarea" name="desSumberPro" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>
+          <textarea class="textarea" name="desSumberPro" placeholder="Jelaskan pendapat anda tentang sumber berita pro yang sudah anda temukan" required></textarea>
         </div>
 
         <div class="field">
           <label class="label">Narasumber </label>
           <div class="control">
-          <input class="input" name="narasumberPro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require">
+          <input class="input" name="narasumberPro" id="narasumber-pro" type="text" placeholder="Narasumber" autofocus data-validate="require" required>
           </div>
           <p class="help"><p class="help">Kasih pendapat kamu tentang narasumber berita pro</p></p>
-          <textarea class="textarea" name="desNarasumberPro" placeholder="Jelaskan pendapat anda tentang narasumber berita kontra yang sudah anda temukan"></textarea>
+          <textarea class="textarea" name="desNarasumberPro" placeholder="Jelaskan pendapat anda tentang narasumber berita kontra yang sudah anda temukan" required></textarea>
         </div>
 
         <div class="field">
           <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" name="dataPro" placeholder="Tuliskan hasil analisis data yang ditampilkan di sumber berita pro"></textarea>
+          <textarea class="textarea" name="dataPro" placeholder="Tuliskan hasil analisis data yang ditampilkan di sumber berita pro" required></textarea>
           </div>
         </div>
 
@@ -276,16 +275,16 @@ if($_SESSION['uname'] == "anggur"){
         <div class="field">
           <label class="label">Sumber Berita </label>
           <div class="control">
-          <input class="input" name="sumberKon" id="sumber-kon" type="text" placeholder="sumber berita Kontra (masukkan 1 yang paling ultimate)" autofocus data-validate="require">
+          <input class="input" name="sumberKon" id="sumber-kon" type="text" placeholder="sumber berita Kontra (masukkan 1 yang paling ultimate)" autofocus data-validate="require" required>
           </div>
           <p class="help">Kasih pendapat kamu tentang sumber berita kontra</p>
-          <textarea class="textarea" name="desSumberKon" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan"></textarea>
+          <textarea class="textarea" name="desSumberKon" placeholder="Jelaskan pendapat anda tentang sumber berita kontra yang sudah anda temukan" required></textarea>
         </div>
 
         <div class="field">
           <label class="label">Narasumber </label>
           <div class="control">
-          <input class="input" name="narasumberKon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require">
+          <input class="input" name="narasumberKon" id="narasumber-kon" type="text" placeholder="Narasumber" autofocus data-validate="require" required>
           </div>
           <p class="help">Kasih pendapat kamu tentang narasumber berita kontra</p>
           <textarea class="textarea" name="desNarasumberKon" placeholder="Jelaskan pendapat anda tentang narasumber berita kontra yang sudah anda temukan"></textarea>
@@ -294,7 +293,7 @@ if($_SESSION['uname'] == "anggur"){
         <div class="field">
           <label class="label">Data yang disajikan </label>
           <div class="control">
-          <textarea class="textarea" name="dataKon" placeholder="Tuliskan hasil analisis data yang ditampilkan pada sumber berita kontra  "></textarea>
+          <textarea class="textarea" name="dataKon" placeholder="Tuliskan hasil analisis data yang ditampilkan pada sumber berita kontra" required></textarea>
           </div>
         </div>
 

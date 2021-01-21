@@ -5,7 +5,8 @@ $graph = OpenGraph::fetch('https://oto.detik.com/catatan-pengendara-mobil/d-5336
 var_dump($graph->keys());
 //var_dump($graph->schema);
 foreach ($graph as $key) {
-    echo $key[0];
+    echo $key['url'];
+    echo $key['image'];
 }
 // var_dump($graph);
 

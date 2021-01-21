@@ -18,7 +18,7 @@
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
       <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
-      <h1 class="title has-text-dark">Leres.</h1>
+      <!-- <h1 class="title has-text-dark">Leres.</h1> -->
     </a>
   
     <!-- <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">

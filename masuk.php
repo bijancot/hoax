@@ -18,10 +18,10 @@
                 <div class="column"></div>
                 <div class="column"> 
                     <h1 class="title">
-                    Leres.
+                    <!-- Leres. -->
                     </h1>
                     <h2 class="subtitle">
-                    Jangan mudah kemakan hoax!
+                    Jangan mudah kemakan hoaks!
                     </h2>
 
                     <div class="card">

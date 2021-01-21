@@ -39,7 +39,7 @@ if($_SESSION['uname'] == "anggur"){
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
       <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
-      <h1 class="title has-text-dark">Leres.</h1>
+      <!-- <h1 class="title has-text-dark">Leres.</h1> -->
     </a>
   
     <!-- <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
@@ -156,7 +156,7 @@ if($_SESSION['uname'] == "anggur"){
                     <div class="card">
                         <div class="card-content">
                           <h1 class="title has-text-dark">
-                            Halo <?= $_SESSION['uname']?> Selamat datang di Leres. !!
+                            <!-- Halo <?php// $_SESSION['uname']?> Selamat datang di Leres. !! -->
                             </h1>
                             <br/>
                             <h2 class="subtitle has-text-dark">

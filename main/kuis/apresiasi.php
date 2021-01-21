@@ -89,7 +89,7 @@ require_once('og.php');
                                                             mengumpulkan berita yang Pro sebanyak :
                                                         </p>
                                                         <p class="title has-text-dark has-text-centered is-size-2 has-text-success">
-                                                            12 berita
+                                                            <?= $jumPro?> berita
                                                         </p>
                                                         <p class="has-text-dark">
                                                             <a href="#data">Lihat Daftar berita ></a>
@@ -108,7 +108,7 @@ require_once('og.php');
                                                             mengumpulkan berita yang Kontra sebanyak :
                                                         </p>
                                                         <p class="title has-text-dark has-text-centered is-size-2 has-text-danger">
-                                                            10 berita
+                                                            <?= $jumKon?> berita
                                                         </p>
                                                         <p class="has-text-dark">
                                                             <a href="#data">Lihat Daftar berita ></a>

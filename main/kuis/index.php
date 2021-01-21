@@ -204,7 +204,7 @@ if($_SESSION['uname'] == "anggur"){
       <div class="field">
           <label class="label">Dugaan Sementara</label>
           <div class="control">
-          <input type="radio" name="dugaan" id="hoax" value="hoax">&nbsp;&nbsp;<label for="hoax">Hoax</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
+          <input type="radio" name="dugaan" id="hoax" value="hoaks">&nbsp;&nbsp;<label for="hoax">Hoaks</label>&nbsp;&nbsp;&nbsp;<input type="radio" name="dugaan" id="fakta" value="fakta">&nbsp;&nbsp;<label for="fakta">Fakta</label>
           </div>
           <p class="help">This is a help text</p>
       </div>

@@ -20,9 +20,11 @@ require_once('og.php');
     $team = $_SESSION['uname'];
 
     $graphPro = OpenGraph::fetch($sumberPro);    
+    $titleSumberPro = $graphPro->title;
     $fotoPro = $graphPro->image;
 
-    $graphKon = OpenGraph::fetch($sumberKon);    
+    $graphKon = OpenGraph::fetch($sumberKon); 
+    $titleSumberKon = $graphKon->title;  
     $fotoKon = $graphKon->image;
 
     $jumPro = count(explode(",",$pro));
@@ -153,6 +155,7 @@ require_once('og.php');
                                                 </figure>
                                             </div>
                                             <div class="card-content">
+                                            <h3 class="subtitle"><?= $titleSumberPro?></h3>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <figure class="image is-48x48">
@@ -193,6 +196,7 @@ require_once('og.php');
                                                 </figure>
                                             </div>
                                             <div class="card-content">
+                                                <h3 class="subtitle"><?= $titleSumberKon?></h3>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <figure class="image is-48x48">

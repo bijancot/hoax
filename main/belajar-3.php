@@ -150,8 +150,8 @@ session_start();
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">4/4</p></div>
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="100" max="100">100%</progress></div>
                                   </div>
-                                  <p class="has-text-justified">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoax, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoax atau sebuah fakta yang memang harus dibagikan.</p><br/>
-                                  <p class="has-text-justified">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoax, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoax atau sebuah fakta yang memang harus dibagikan.</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
                                   <?php
                                   
                                   

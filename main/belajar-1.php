@@ -61,7 +61,7 @@ session_start();
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="50" max="100">50%</progress></div>
                                   </div>
                                   <br/>
-                                  <p class="has-text-justified">Akses yang mudah membuat hampir semua orang dangan berbagai umur dan latar belakang dapat mengakses berita dan informasi dengan cepat. Disinilah muncul masalah baru, dengan tingkat literasi Indonesia yang terhitung cukup rendah alur informasi yang cepat justru menjadi kendala. Masyarakat dengan literasi dan pendidikan rendah cenderung memiliki kebiasaaan mudah menyimpulkan sesuatu tanpa dasar atau riset yang jelas. Di sinilah sejarah berita hoax mulai bertebaran di media sosial dan menjadi sedikit menyebalkan.</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Akses yang mudah membuat hampir semua orang dangan berbagai umur dan latar belakang dapat mengakses berita dan informasi dengan cepat. Disinilah muncul masalah baru, dengan tingkat literasi Indonesia yang terhitung cukup rendah alur informasi yang cepat justru menjadi kendala. Masyarakat dengan literasi dan pendidikan rendah cenderung memiliki kebiasaaan mudah menyimpulkan sesuatu tanpa dasar atau riset yang jelas. Di sinilah sejarah berita hoax mulai bertebaran di media sosial dan menjadi sedikit menyebalkan.</p><br/>
                                   
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>

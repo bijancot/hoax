@@ -150,7 +150,7 @@ session_start();
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="75" max="100">60%</progress></div>
                                   </div>
                                   <br/>
-                                  <p class="has-text-justified">Jadi, bagaimana cara kita terhindar dari berita hoax?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoax atau bukan, detilnya adalah sebagai berikut :</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Jadi, bagaimana cara kita terhindar dari berita hoax?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoax atau bukan, detilnya adalah sebagai berikut :</p><br/>
                                   <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
                                     <strong>C : Cermati</strong>
                                   </p>

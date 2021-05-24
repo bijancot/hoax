@@ -11,8 +11,13 @@ $_SESSION['uname'];
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
+  <style>
+      .section{
+        background-color:#2FC0D3 !important;
+      }
+  </style>
   <body>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -145,12 +150,12 @@ $_SESSION['uname'];
                                   </h4>
                                   <div class="columns is-mobile">
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>
-                                    <div class="column"><bt/><progress class="progress is-medium is-info" value="25" max="100">25%</progress></div>
+                                    <div class="column"><bt/><progress style="color:#1C4686 !important" class="progress is-medium is-info" value="25" max="100">25%</progress></div>
                                   </div>
                                   <p class="has-text-justified">Banyak hal terjadi di masa ini. Berbeda dengan dekade dan abad sebelumnya, di abad ke-21 ini semua serba cepat dan mudah didapatkan. Begitu juga dengan informasi dan berita. Laju berita sangat cepat, bahkan sebuah berita dapat didapatkan hanya selisih 10 menit setelah sebuah kejadian terjadi. Hal tersebut bukan mustahil terjadi, apalagi dengan banyaknya alternatif pengaksesan berita mulai dari website berita, facebook dan beberapa sosial media lain termasuk WhatsApp.</p><br/>
                                   <div class="columns">
                                     <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-1.php"><button style="background-color:#FF891D !important;color:black !important;" class="showAnswer button is-medium is-center is-rounded is-outlined is-is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
                                     <div class="column"></div>
                                   </div>
                               </div>

@@ -174,7 +174,7 @@ session_start();
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>
                                     <div class="column"><br/><a href="belajar-1.php"><button class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-info is-center is-fullwidth is-size-6-mobile"><strong>Lanjutkan > </strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar-3.php"><button class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Lanjutkan > </strong></button></a><br/></div>
                                     <div class="column is-hidden-mobile"></div>
                                   </div>
                               </div>

@@ -71,7 +71,7 @@ session_start();
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>
                                     <div class="column" ><br/><a href="belajar.php"><button class="showAnswer is-size-6-mobile button is-medium is-danger is-center is-fullwidth"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column" ><br/><a href="belajar-2.php"><button class="showAnswer is-size-6-mobile button is-medium is-info is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
+                                    <div class="column" ><br/><a href="belajar-2.php"><button class="showAnswer is-size-6-mobile button is-medium is-success is-center is-fullwidth"><strong>Lanjutkan > </strong></button></a><br/></div>
                                     <div class="column is-hidden-mobile" ></div>
                                   </div>
                               </div>

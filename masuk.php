@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
   </head>
   <body>
-  <section class="hero is-warning is-fullheight">
+  <section class="hero is-white is-fullheight">
     <div class="hero-body">
         <div class="container">
             <div class="columns">
@@ -24,7 +24,7 @@
                     Jangan mudah kemakan hoaks!
                     </h2>
 
-                    <div class="card">
+                    <div class="card is-warning">
                         <div class="card-content">
                             <form action="main/" method="post" id="createRoom">
                                 <div class="field">

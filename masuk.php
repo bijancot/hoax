@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
   </head>
   <body>
-  <section class="hero is-fullheight">
+  <section class="hero is-white is-fullheight">
     <div class="hero-body">
         <div class="container">
             <div class="columns">

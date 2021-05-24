@@ -14,7 +14,12 @@ session_start();
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <body>
-  <section class="hero is-primary is-fullheight">
+  <style>
+      .hero-body{
+        background-color:#2FC0D3 !important;
+      }
+  </style>
+  <section class="hero is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">

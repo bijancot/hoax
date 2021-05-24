@@ -12,7 +12,7 @@ $_SESSION['uname'];
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <style>
-      .section{
+      .hero-body{
         background-color:#2FC0D3 !important;
       }
   </style>

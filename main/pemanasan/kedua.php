@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
   </head>
   <body>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-white is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -133,8 +133,8 @@
                 <div class="column is-two-thirds"> 
                     <div class="card">
                       <header class="card-header ">
-                        <p class="card-header-title has-text-left">
-                          Tangkapan layar salah satu unggahan netizen di facebook
+                        <p class="card-header-title has-text-left is-size-1">
+                          Latihan 2 </p>
                         <!-- </p> -->
                         <!-- <a href="#" class="card-header-icon" aria-label="more options">
                           <span class="icon">
@@ -148,15 +148,13 @@
                         <div class="card-content is-size-5-mobile is-size-4-desktop ">
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
                           <div class="is-hidden-desktop penjelasan">
-                            <h2 class="title has-text-dark">Latihan 2</h2><br/>
+                            
                             Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
-                            <div class="columns">
-                              <div class="column"></div>
-                              <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
-                              <div class="column"></div>
+                            <div class="columns is-mobile">
+                              <div class="column is-half"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column is-half"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
                           </div>
                             </div>
                             <br/>
@@ -218,7 +216,7 @@
                     <p class="has-text-dark">Sampai sini udah paham kan? Yuk baca sedikit informasi lagi biar terhindar dari hoax!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <a href="asd.html"><button class="button is-success">Lanjutkan >></button> </a>
+                  <a href="asd.html"><button style="background-color:#FF891D !important;" class="button is-rounded">Lanjutkan >></button> </a>
                 </footer>
               </div>
             </div>

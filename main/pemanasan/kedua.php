@@ -216,7 +216,7 @@
                     <p class="has-text-dark">Sampai sini udah paham kan? Yuk baca sedikit informasi lagi biar terhindar dari hoax!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <a href="asd.html"><button style="background-color:#FF891D !important;" class="button is-success is-rounded is-black has-text-weight-bold">Lanjutkan </button> </a>
+                  <a href="asd.html"><button style="background-color:#FF891D !important; color:black !important;" class="button is-outlined is-success is-rounded is-black has-text-weight-bold">Lanjutkan </button> </a>
                 </footer>
               </div>
             </div>

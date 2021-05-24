@@ -133,8 +133,8 @@
                 <div class="column is-two-thirds"> 
                     <div class="card">
                       <header class="card-header ">
-                        <p class="card-header-title has-text-left">
-                          Tangkapan layar Pesan salah satu WhatsApp Group
+                        <p class="card-header-title has-text-left is-size-1">
+                          Latihan 1 </p>
                         <!-- </p> -->
                         <!-- <a href="#" class="card-header-icon" aria-label="more options">
                           <span class="icon">

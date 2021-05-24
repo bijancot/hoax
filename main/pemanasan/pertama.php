@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
   </head>
   <body>
-  <section class="hero is-primary is-fullheight">
+  <section class="hero is-white is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="https://bulma.io">
@@ -127,7 +127,7 @@
     </div>
   </div>
 </nav>
-    <div class="hero-body">
+    <div class="hero-body is-white">
         <div class="container">
             <div class="columns">
                 <div class="column is-two-thirds"> 
@@ -148,15 +148,14 @@
                         <div class="card-content is-size-5-mobile is-size-4-desktop ">
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
                           <div class="is-hidden-desktop penjelasan">
-                            <h2 class="title has-text-dark">Latihan 1</h2><br/>
                             Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
-                            <div class="columns">
-                              <div class="column"></div>
+                              <div class="columns">
+                              
                               <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
                               <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
-                              <div class="column"></div>
+                              
                           </div>
                             </div>
                             <br/>
@@ -179,7 +178,6 @@
                   <div class="card is-hidden-mobile">
                     
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
-                      <h2 class="title has-text-dark">Latihan 1</h2>
                       <p>Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax?</p>
                       <br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>

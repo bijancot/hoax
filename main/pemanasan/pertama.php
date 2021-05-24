@@ -216,7 +216,7 @@
                     <p class="has-text-dark">Gimana jawaban kamu tadi ?, masih salah atau udah bener ? yuk kita coba lagi!. Klik tombol lanjutkan di bawah!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <a href="kedua.php"><button style="background-color:#FF891D !important;" class="button is-success is-rounded">Lanjutkan</button> </a>
+                  <a href="kedua.php"><button style="background-color:#FF891D !important;" class="button is-success is-rounded has-text-weight-bold">Lanjutkan</button> </a>
                 </footer>
               </div>
             </div>

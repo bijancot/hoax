@@ -151,11 +151,9 @@
                             Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
-                              <div class="columns">
-                              <div class="column is-half">asd</div>
-                              <div class="column is-half">asd</div>
-                              <!-- <div class="column is-half"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column is-half"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div> -->
+                              <div class="columns is-mobile">
+                              <div class="column is-half"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column is-half"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
                               
                           </div>
                             </div>

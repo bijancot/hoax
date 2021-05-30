@@ -264,7 +264,7 @@ require_once('og.php');
                             <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
                                 <thead>
                                     <tr>
-                                        <td style="background-color: #254636; color:#93ca3b" class="has-text-centered has-text-weight-bold">
+                                        <td style="background-color: #254636; color:#d2222d" class="has-text-centered has-text-weight-bold">
                                             Berita Kontra
                                         </td>
                                     </tr>

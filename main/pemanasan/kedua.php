@@ -153,8 +153,8 @@
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
                             <div class="columns is-mobile">
-                              <div class="column is-half"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column is-half"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column is-half"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column is-half"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
                           </div>
                             </div>
                             <br/>

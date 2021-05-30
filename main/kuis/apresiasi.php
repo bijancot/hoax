@@ -48,7 +48,7 @@ require_once('og.php');
       }
   </style>
     <body>
-        <section class="hero is-large is-dark is-bold is-fullheight">
+        <section style="background-color:#FF891D !important;" class="hero is-large is-bold is-fullheight">
             <div class="hero-body" style="padding:1.5rem !important;">
                 <div class="container">
                     <div class="columns">
@@ -135,7 +135,7 @@ require_once('og.php');
                     </div>
                 </div>
             </section>
-            <section class="hero is-medium is-white is-bold" id="lanjut">
+            <section class="hero is-medium is-bold" id="lanjut">
                 <div class="hero-body py-6 my-5">
                     <div class="container">
                         <h1 class="title is-size-2">
@@ -235,7 +235,7 @@ require_once('og.php');
                 </div>
             </div>
         </section>
-        <section class="hero is-medium is-primary is-bold" id="data">
+        <section style="background-color:#2FC0D3 !important;" class="hero is-medium is-bold" id="data">
             <div class="hero-body py-6">
                 <div class="container">
                     <h1 class="title has-text-centered is-size-2">Daftar Tautan berita team

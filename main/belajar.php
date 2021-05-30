@@ -153,9 +153,9 @@ $_SESSION['uname'];
                                     <div class="column"><bt/><progress style="color:#1C4686 !important" class="progress is-medium is-info" value="25" max="100">25%</progress></div>
                                   </div>
                                   <p class="has-text-justified is-size-6-mobile">Banyak hal terjadi di masa ini. Berbeda dengan dekade dan abad sebelumnya, di abad ke-21 ini semua serba cepat dan mudah didapatkan. Begitu juga dengan informasi dan berita. Laju berita sangat cepat, bahkan sebuah berita dapat didapatkan hanya selisih 10 menit setelah sebuah kejadian terjadi. Hal tersebut bukan mustahil terjadi, apalagi dengan banyaknya alternatif pengaksesan berita mulai dari website berita, facebook dan beberapa sosial media lain termasuk WhatsApp.</p><br/>
-                                  <div class="columns">
+                                  <div class="columns has-text-centered">
                                     <div class="column"></div>
-                                    <div class="column"><br/><a href="belajar-1.php"><button style="background-color:#FF891D !important;color:black !important;" class="showAnswer button is-medium is-center is-rounded is-outlined is-is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
+                                    <div class="column has-text-centered"><br/><a href="belajar-1.php"><button style="background-color:#FF891D !important;color:black !important;" class="showAnswer button is-medium is-center is-rounded is-outlined is-fullwidth"><strong>Mulai !</strong></button></a><br/></div>
                                     <div class="column"></div>
                                   </div>
                               </div>

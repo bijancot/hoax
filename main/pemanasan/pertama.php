@@ -182,8 +182,8 @@
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">
                               
-                              <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
+                              <div class="column"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
                               
                           </div>
                     </div>
@@ -216,7 +216,7 @@
                     <p class="has-text-dark">Gimana jawaban kamu tadi ?, masih salah atau udah bener ? yuk kita coba lagi!. Klik tombol lanjutkan di bawah!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <a href="kedua.php"><button style="background-color:#FF891D !important;color:black !important;" class="button is-outlined is-rounded is-black has-text-weight-bold">Lanjutkan</button> </a>
+                  <a href="kedua.php"><button style="background-color:#FF891D !important;color:black !important;" class="button is-rounded is-black has-text-weight-bold">Lanjutkan</button> </a>
                 </footer>
               </div>
             </div>

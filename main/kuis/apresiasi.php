@@ -42,6 +42,11 @@ require_once('og.php');
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Apresiasi</title>
     </head>
+    <style>
+      .hero-body,.navbar{
+        background-color:#2FC0D3 !important;
+      }
+  </style>
     <body>
         <section class="hero is-large is-dark is-bold is-fullheight">
             <div class="hero-body" style="padding:1.5rem !important;">

@@ -32,6 +32,11 @@ if($_SESSION['uname'] == "anggur"){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
+  <style>
+      .hero-body,.navbar{
+        background-color:#2FC0D3 !important;
+      }
+  </style>
   <body>
   <section class="hero is-primary is-fullheight">
   <nav class="navbar" role="navigation" aria-label="main navigation">

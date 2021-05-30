@@ -17,13 +17,9 @@
             <div class="columns">
                 <div class="column"></div>
                 <div class="column"> 
-                    <h1 class="title">
-                    <!-- Leres. -->
-                    </h1>
-                    <h2 class="subtitle">
+                    <h2 class="has-text-weight-bold">
                     Jangan mudah kemakan hoaks!
                     </h2>
-
                     <div class="card" style="background-color:#ffdd57 !important">
                         <div class="card-content">
                             <form action="main/" method="post" id="createRoom">

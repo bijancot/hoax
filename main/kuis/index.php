@@ -26,7 +26,7 @@ if($_SESSION['uname'] == "anggur"){
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Melawan Hoax dengan CINTA : Waktunya Kuis!</title>
     <link rel="stylesheet" href="../../../build/assets/bulma/css/bulma.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bijancot/deliv@16/hoax/step.css">

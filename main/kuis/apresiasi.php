@@ -40,10 +40,10 @@ require_once('og.php');
             href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Apresiasi</title>
+        <title>Melawan Hoax dengan CINTA : Apresiasi</title>
     </head>
     <body>
-        <section style="background-color:#FF891D !important;" class="hero is-large is-bold is-fullheight">
+        <section style="background-color:#ece99b !important;" class="hero is-large is-bold is-fullheight">
             <div class="hero-body" style="padding:1.5rem !important;">
                 <div class="container">
                     <div class="columns">
@@ -230,17 +230,17 @@ require_once('og.php');
                 </div>
             </div>
         </section>
-        <section style="background-color:#2FC0D3 !important;" class="hero is-medium is-bold" id="data">
+        <section style="background-color:#c9c844 !important;" class="hero is-medium is-bold" id="data">
             <div class="hero-body py-6">
                 <div class="container">
-                    <h1 class="title has-text-centered is-size-2">Daftar Tautan berita team
+                    <h1 class="title has-text-centered is-size-2">Daftar Tautan Berita Team
                         <?= $team?></h1>
                     <div class="columns">
                         <div class="column">
                             <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
                                 <thead>
                                     <tr>
-                                        <td class="is-dark has-text-centered has-text-weight-bold has-text-success">
+                                        <td style="background-color: #254636; color:#93ca3b" class="has-text-centered has-text-weight-bold">
                                             Berita Pro
                                         </td>
                                     </tr>
@@ -264,7 +264,7 @@ require_once('og.php');
                             <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
                                 <thead>
                                     <tr>
-                                        <td class="is-dark has-text-centered has-text-weight-bold has-text-danger">
+                                        <td style="background-color: #254636; color:#93ca3b" class="has-text-centered has-text-weight-bold">
                                             Berita Kontra
                                         </td>
                                     </tr>

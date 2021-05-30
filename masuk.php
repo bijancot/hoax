@@ -7,7 +7,7 @@
   ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Melawan Hoax Dengan CINTA : MASUK !</title>
     <link rel="stylesheet" href="assets/bulma/css/bulma.min.css">
   </head>
   <body>

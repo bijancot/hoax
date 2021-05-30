@@ -9,7 +9,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
+    <title>Melawan Hoax dengan CINTA : Mengenal berita hoax 2/4</title>
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>

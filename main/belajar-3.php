@@ -163,8 +163,8 @@ session_start();
                                   ?>
                                   <div class="columns is-mobile">
                                     <div class="column is-hidden-mobile"></div>
-                                    <div class="column"><br/><a href="belajar.php"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
-                                    <div class="column"><br/><a href="../masuk.php"><button style="background-color:#CE1212" class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Mulai Praktik </strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="belajar.php"><button style="background-color:#CE1212" class="showAnswer button is-medium is-danger is-center is-fullwidth is-size-6-mobile"><strong> < Kembali</strong></button></a><br/></div>
+                                    <div class="column"><br/><a href="../masuk.php"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-success is-center is-fullwidth is-size-6-mobile"><strong>Mulai Praktik </strong></button></a><br/></div>
                                     <div class="column is-hidden-mobile"></div>
                                   </div>
                               </div>

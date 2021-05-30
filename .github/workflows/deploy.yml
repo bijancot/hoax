@@ -1,14 +1,14 @@
-name : Panji Belajar Deploy 
+name : Hoax Project Deploy
 on:
   push:
-    branches: [ develop ]
+    branches: [ main ]
 
 jobs:
   first:
-    name: Pull from github
+    name: Pull from github to server
     runs-on: ubuntu-latest
     steps:
-    - name: test deploy dev
+    - name: deploy main
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST }}

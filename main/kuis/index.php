@@ -220,7 +220,7 @@ if($_SESSION['uname'] == "anggur"){
 
       <div class="field">
           <label class="label">PRO</label>
-          <p class="help">Contoh : https://detik.com/ (sertakan https://)</p>
+          <p class="help">Contoh : https://detik.com/nama-berita (sertakan https:// lengkap dari berita)</p>
           <div class="control">
             <textarea class="textarea" name="pro" placeholder="Masukkan berita yang pro jika temukan beberapa pisahkan dengan koma :D" required></textarea>
           </div>
@@ -228,7 +228,7 @@ if($_SESSION['uname'] == "anggur"){
 
       <div class="field">
           <label class="label">KONTRA</label>
-          <p class="help">Contoh : https://detik.com/ (sertakan https://)</p>
+          <p class="help">Contoh : https://detik.com/nama-berita (sertakan https:// lengkap dari berita)</p>
           <div class="control">
             <textarea class="textarea" name="kontra" placeholder="Masukkan berita yang kontra jika temukan beberapa pisahkan dengan koma (,) :D" required></textarea>
           </div>

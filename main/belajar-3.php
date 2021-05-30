@@ -15,7 +15,7 @@ session_start();
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
   <style>
-      .hero-body{
+      .hero-body,.navbar{
         background-color:#2FC0D3 !important;
       }
   </style>

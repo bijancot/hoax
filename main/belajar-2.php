@@ -15,7 +15,7 @@ session_start();
   </head>
   <body>
   <style>
-      .hero-body{
+      .hero-body,.navbar{
         background-color:#2FC0D3 !important;
       }
   </style>

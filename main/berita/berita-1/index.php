@@ -156,7 +156,7 @@ session_start();
                                   </div> -->
                                   <br/>
                                   <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                                    <img src="https://akcdn.detik.net.id/customthumb/2012/07/25/475/generator-buatan--D.jpg?w=700&q=90">
                                   </figure>
                                   <br/>
                                   <br/>

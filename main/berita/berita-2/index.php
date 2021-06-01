@@ -156,7 +156,7 @@ session_start();
                                   </div> -->
                                   <br/>
                                   <figure class="image is-4by3">
-                                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                                    <img src="https://statik.tempo.co/data/2016/01/17/id_473783/473783_620.jpg">
                                   </figure>
                                   <br/>
                                   <br/>

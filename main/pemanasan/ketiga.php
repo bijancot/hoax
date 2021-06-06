@@ -204,9 +204,9 @@
                   </figure>
                   <br/><br/>
                   <h1 class="title">
-                    <span class="has-text-dark">Kategori Informasi :</span> <em style="background-color:#1BBF00">FAKTA</em>
+                    <span class="has-text-dark">Kategori Informasi :</span> <em style="color:#1BBF00">FAKTA</em>
                     </h1>
-                  <p class="has-text-dark">Kali ini berita yang dibagikan adalah berita yang benar!. Selain itu sumber yang digunakan atau dibagikan sangat terpercaya dan dapat dipertanggungjawabkan</p><br/>
+                  <p class="has-text-dark">Kali ini berita yang dibagikan adalah <strong>berita yang benar!</strong>. Selain itu <strong>sumber yang digunakan atau dibagikan sangat terpercaya</strong> dan dapat dipertanggungjawabkan</p><br/>
                   <article class="message">
                     <div class="message-body">
                       kutipan resmi dari Kominfo :<br/>

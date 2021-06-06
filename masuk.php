@@ -36,7 +36,7 @@
                                       setcookie("msg", "", time() - 3600);
                                       }else{
                                     ?>
-                                    <p class="help">Minta ke bu guru ya! ;)</p>
+                                    <p class="help">Minta ke bapak/ibu guru ya! ;)</p>
                                     <?php
                                       }
                                     ?>

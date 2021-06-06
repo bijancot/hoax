@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Analisis Berita 2/2</title>
+    <title>Melawan Hoax dengan CINTA : Analisis Berita 2/3</title>
     <link rel="stylesheet" href="../../assets/bulma/css/bulma.min.css">
     <!-- Remember to include jQuery :) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -143,7 +143,7 @@
                         </a> -->
                       </header>
                         <figure class="image is-3by5">
-                        <img src="../../assets/image/image_4.png" alt="Placeholder image">
+                        <img src="../../assets/image/image_4.png" alt="Halo Gambar masih dimuat">
                         </figure>
                         <div class="card-content is-size-5-mobile is-size-4-desktop ">
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
@@ -213,10 +213,10 @@
                       Kementerian Kesehatan menyatakan tidak pernah mengeluarkan informasi tentang pencegahan infeksi virus Corona 2019-nCoV tersebut kepada masyarakat. <strong>“Tidak pernah ada,”  </strong> kata Direktur Jenderal Pencegahan dan Pengendalian Penyakit Kemenkes, Anung Sugihantono.
                     </div>
                   </article>
-                    <p class="has-text-dark">Sampai sini udah paham kan? Yuk baca sedikit informasi lagi biar terhindar dari hoax!</p>
+                    <p class="has-text-dark">Sudah paham? atau masih bingung? mungkin satu kali lagi latihan bisa bantu kamu semakin paham!</p>
                 </section>
                 <footer class="modal-card-foot">
-                  <a href="asd.html"><button style="background-color:#FF891D !important; color:black !important;" class="button is-rounded is-black has-text-weight-bold">Lanjutkan </button> </a>
+                  <a href="ketiga.php"><button style="background-color:#FF891D !important; color:black !important;" class="button is-rounded is-black has-text-weight-bold">Lanjutkan </button> </a>
                 </footer>
               </div>
             </div>

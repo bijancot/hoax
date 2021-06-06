@@ -18,15 +18,17 @@ session_start();
 
 if($_SESSION['uname'] == "anggur"){
   setcookie("berita", "Warga Malang Temukan Pembangkit Listrik Tenaga Hampa", time() + 3600, '/');
+  setcookie("img_berita", "https://akcdn.detik.net.id/customthumb/2012/07/25/475/generator-buatan--D.jpg?w=700&q=90", time() + 3600, '/');
 }if($_SESSION['uname'] == "mangga"){
   setcookie("berita", "IronMan Dari Bali", time() + 3600, '/');
+  setcookie("img_berita", "https://statik.tempo.co/data/2016/01/17/id_473783/473783_620.jpg", time() + 3600, '/');
 }
 ?>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Waktunya Kuis!</title>
+    <title>Melawan Hoaks dengan CINTA : Waktunya Kuis!</title>
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">

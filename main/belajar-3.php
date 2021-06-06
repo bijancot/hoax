@@ -9,7 +9,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Mengenal berita hoax 4/4</title>
+    <title>Melawan Hoaks dengan CINTA : Mengenal berita hoaks 4/4</title>
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -146,16 +146,16 @@ session_start();
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
                                 <h1 class="title has-text-dark">
-                                  Mengenal Berita hoax
+                                  Mengenal Berita hoaks
                                   </h1>
                                   <h4 class="subtitle has-text-dark is-size-6-mobile">
-                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
+                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoaks!
                                   </h4>
                                   <div class="columns is-mobile">
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">4/4</p></div>
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="100" max="100">100%</progress></div>
                                   </div>
-                                  <p class="has-text-justified is-size-6-mobile">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoax, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoax atau sebuah fakta yang memang harus dibagikan.</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Nah, itu tadi adalah sedikit informasi tentang apa itu berita hoaks, bagaimana ia muncul dan bagaimana cara mengatasinya. Supaya lebih lengkap setelah ini kita akan langsung mempraktikkan bagaimana penggunaan metode C.I.N.T.A di kehidupan nyata. Akan diberikan beberapa berita real dan teman-teman akan diminta untuk menentukan sebuah berita termasuk kategori hoaks atau sebuah fakta yang memang harus dibagikan.</p><br/>
                                   <p class="has-text-justified is-size-6-mobile">Ayo kita praktikkan sekarang!, klik tombol selesai di bawah untuk mulai praktik!</p><br/>
                                   <?php
                                   

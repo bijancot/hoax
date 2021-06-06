@@ -7,7 +7,7 @@ $_SESSION['uname'];
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Mengenal berita hoax 1/4</title>
+    <title>Melawan Hoaks dengan CINTA : Mengenal berita hoaks 1/4</title>
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
@@ -143,10 +143,10 @@ $_SESSION['uname'];
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
                                 <h1 class="title has-text-dark">
-                                  Mengenal Berita hoax
+                                  Mengenal Berita hoaks
                                   </h1>
                                   <h4 class="subtitle has-text-dark is-size-6-mobile">
-                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
+                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoaks!
                                   </h4>
                                   <div class="columns is-mobile">
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">1/4</p></div>

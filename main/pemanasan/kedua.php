@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Analisis Berita 2/3</title>
+    <title>Melawan Hoaks dengan CINTA : Analisis Berita 2/3</title>
     <link rel="stylesheet" href="../../assets/bulma/css/bulma.min.css">
     <!-- Remember to include jQuery :) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -149,12 +149,12 @@
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
                           <div class="is-hidden-desktop penjelasan">
                             
-                            Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta? 
+                            Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoaks atau fakta? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p>
                             <div class="columns is-mobile">
                               <div class="column is-half"><button style="background-color:#1BBF00; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column is-half"><button style="background-color:#CE1212; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column is-half"><button style="background-color:#CE1212; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                           </div>
                             </div>
                             <br/>
@@ -167,7 +167,7 @@
                       <div class="columns">
                               <div class="column"></div>
                               <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                               <div class="column"></div>
                           </div>
                       </div>
@@ -178,13 +178,13 @@
                     
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
                       <h2 class="title has-text-dark">Latihan 2</h2>
-                      Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoax atau fakta?
+                      Okay, mari kita analisa berita kedua ini. Menurut kamu berita ini hoaks atau fakta?
                       <br/><br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">
                               
                       <div class="column"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                      <div class="column"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                      <div class="column"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                               
                           </div>
                     </div>
@@ -204,7 +204,7 @@
                   </figure>
                   <br/><br/>
                   <h1 class="title">
-                    <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAX</em>
+                    <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAKS</em>
                     </h1>
                   <p class="has-text-dark">Sekali lagi, informasi yang telah disebarkan oleh netizen bertujuan baik, namun <strong class="has-text-danger-dark">tidak</strong> diiringi dengan <strong class="has-text-danger-dark">pencarian fakta yang tepat</strong> sehingga terjadi disinformasi. Yuk cek dulu sebelum berbagi berita!</p><br/>
                   <article class="message">

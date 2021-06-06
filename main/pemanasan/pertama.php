@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Analisis Berita 1/3</title>
+    <title>Melawan Hoaks dengan CINTA : Analisis Berita 1/3</title>
     <link rel="stylesheet" href="../../assets/bulma/css/bulma.min.css">
     <!-- Remember to include jQuery :) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
@@ -148,12 +148,12 @@
                         <div class="card-content is-size-5-mobile is-size-4-desktop ">
                           <!-- <div class="is-hidden-mobile">Tangkapan layar Pesan salah satu <em>WhatsApp Group</em></div> -->
                           <div class="is-hidden-desktop penjelasan">
-                            Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax? 
+                            Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoaks? 
                             
                               <br/><br/><br/><p><strong class="has-text-centered">Pilih jawaban di bawah ini :</strong></p><br/>
                               <div class="columns is-mobile">
                               <div class="column is-half"><button style="background-color:#1BBF00; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column is-half"><button style="background-color:#CE1212; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column is-half"><button style="background-color:#CE1212; color:white" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                               
                           </div>
                             </div>
@@ -167,7 +167,7 @@
                       <div class="columns">
                               <div class="column"></div>
                               <div class="column"><button class="showAnswer button is-medium is-success is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column"><button class="showAnswer button is-medium is-danger is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                               <div class="column"></div>
                           </div>
                       </div>
@@ -177,13 +177,13 @@
                   <div class="card is-hidden-mobile">
                     
                     <div class="card-content is-size-5-mobile is-size-5-desktop">
-                      <p>Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoax?</p>
+                      <p>Halo kamu !, pertama mari nilai berita satu ini. Menurut kalian, kabar yang ada di tangkapan layar sebuah pesan whatsapp ini fakta atau hoaks?</p>
                       <br/>
                       <p class="has-text-centered"><strong>Pilih jawaban di bawah ini :</strong></p><br/>
                       <div class="columns">
                               
                               <div class="column"><button style="background-color:#1BBF00" class="showAnswer button is-medium is-center is-fullwidth"><strong>Fakta</strong></button></div>
-                              <div class="column"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoax</strong></button></div>
+                              <div class="column"><button style="background-color:#CE1212" class="showAnswer button is-medium is-center is-fullwidth"><strong>Hoaks</strong></button></div>
                               
                           </div>
                     </div>
@@ -203,7 +203,7 @@
                   </figure>
                   <br/><br/>
                   <h1 class="title">
-                    <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAX</em>
+                    <span class="has-text-dark">Kategori Informasi :</span> <em class="has-text-danger-dark">HOAKS</em>
                     </h1>
                   <p class="has-text-dark">Dilansir dari Akun sosial media resmi BMKG Indonesia. Kendati mengandung pesan anjuran yang baik, Disebutkan bahwa pesat <em>whatsapp group</em> tersebut adalah pesan yang salah!. Pesan tersebut bisa saja menimbulkan keresahan di kalangan masyarakat dan menyebabkan kepanikan </p><br/>
                   <article class="message is-dark">

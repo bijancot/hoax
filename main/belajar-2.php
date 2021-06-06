@@ -9,7 +9,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Melawan Hoax dengan CINTA : Mengenal berita hoax 3/4</title>
+    <title>Melawan Hoaks dengan CINTA : Mengenal berita hoaks 3/4</title>
     <link rel="stylesheet" href="../assets/bulma/css/bulma.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </head>
@@ -145,17 +145,17 @@ session_start();
                               <div class="column"></div>
                               <div class="column is-four-fifths is-size-5-mobile is-size-6-desktop has-text-dark">
                                 <h1 class="title has-text-dark">
-                                  Mengenal Berita hoax
+                                  Mengenal Berita hoaks
                                   </h1>
                                   <h4 class="subtitle has-text-dark is-size-6-mobile">
-                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoax!
+                                  Pelajari tentang penyebab dan bagaimana memahami berita agar terhindar dari berita hoaks!
                                   </h4>
                                   <div class="columns is-mobile">
                                     <div class="column is-1"><p class="is-size-6-mobile has-text-dark">3/4</p></div>
                                     <div class="column"><bt/><progress class="progress is-medium is-info" value="75" max="100">60%</progress></div>
                                   </div>
                                   <br/>
-                                  <p class="has-text-justified is-size-6-mobile">Jadi, bagaimana cara kita terhindar dari berita hoax?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoax atau bukan, detilnya adalah sebagai berikut :</p><br/>
+                                  <p class="has-text-justified is-size-6-mobile">Jadi, bagaimana cara kita terhindar dari berita hoaks?. Bu rahma punya solusinya, seperti di beberapa drama korea dan film hollywood kita dapat melawan semua kejahatan dengan C.I.N.T.A. Tunggu ini bukan lagu atau cinta yang itu, C.I.N.T.A adalah sebuah metode identifikasi informasi atau berita untuk menentukan apakah informasi / berita tersebut hoaks atau bukan, detilnya adalah sebagai berikut :</p><br/>
                                   <p class="has-text-dark is-size-4-mobile is-size-4-desktop">
                                     <strong>C : Cermati</strong>
                                   </p>

@@ -17,6 +17,7 @@ require_once('og.php');
     $desNarasumberKon =$_POST['desNarasumberKon'];
     $dataKon =$_POST['dataKon'];
     $berita = $_COOKIE['berita'];
+    $img_berita = $_COOKIE['img_berita'];
     $team = $_SESSION['uname'];
 
     $graphPro = OpenGraph::fetch($sumberPro);    
@@ -40,7 +41,7 @@ require_once('og.php');
             href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Melawan Hoax dengan CINTA : Apresiasi</title>
+        <title>Melawan Hoaks dengan CINTA : Apresiasi</title>
     </head>
     <body>
         <section style="background-color:#ece99b !important;" class="hero is-large is-bold is-fullheight">
@@ -78,7 +79,7 @@ require_once('og.php');
                                     </div>
                                 </article>
                                 <figure class="image is-2by1">
-                                    <img src="https://bulma.io/images/placeholders/256x256.png">
+                                    <img src=<?= $img_berita ?>>
                                 </figure>
                             </div>
                             <div class="column">
@@ -298,7 +299,7 @@ require_once('og.php');
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>
-                    <strong>Aplikasi anti hoax</strong>
+                    <strong>Aplikasi anti hoaks</strong>
                     by Bu Rahma. The source code is licensed
                     <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. Built with
                     <a href="https://bulma.io">Bulma</a>
